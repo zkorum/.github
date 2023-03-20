@@ -121,7 +121,7 @@ Some related articles/libraries:
 
 #### Note on other ID documents
 
-The 1st focus is on proving unique personhood - and eventually nationality.
+The 1st focus is on proving unique personhood - and then age and nationality.
 
 However, we could imagine a zkKYC process that prove other information about the users: 
 - having a license to buy weapons
@@ -131,7 +131,9 @@ However, we could imagine a zkKYC process that prove other information about the
 
 ### An authorization/authentication server and client for web applications
 
-Here, we could use the standard [OpenID for Verifiable Credentials](https://oauth.net/openid-for-verifiable-credentials/#:~:text=OpenID%20for%20Verifiable%20Credentials%20is,claims%20to%20a%20relying%20party.) 
+Privency.tech provides an authorization/authentication server and client for web applications
+
+We could use the standard [OpenID for Verifiable Credentials](https://oauth.net/openid-for-verifiable-credentials/#:~:text=OpenID%20for%20Verifiable%20Credentials%20is,claims%20to%20a%20relying%20party.) 
 
 I am not entirely sure how it will work out though.
 
@@ -148,7 +150,7 @@ In the admin frontend, the web app dev would configure which kind of conditions 
 
 ### A smart-contract for blockchain account abstraction
 
-Same as above, but for blockchain accounts, abstracting away their usage, for example allowing their access only to those that prove they hold a given government ID and eventually passed a local privacy-preserving KYC every now and then.
+Same as above, but for blockchain accounts, abstracting away their auth from key pairs, for example allowing their access only to those that prove they hold a given government ID and eventually passed a local privacy-preserving KYC every now and then.
 
 ### What about transparency?
 
@@ -183,7 +185,7 @@ We could imagine other conditions to allow for revealing user's identity. For ex
 - solving user data privacy. There are already projects working towards this direction, namely [WNFS](https://guide.fission.codes/developers/webnative/file-system-wnfs) for local-first edge applications, and [zama.ai](https://www.zama.ai/), through its set of fully-homomorphic encryption tools. 
 - solving user metadata privacy. There are already projects working towards this direction, namely mixnets such as [Tor](https://www.torproject.org/) or [HOPR](https://hoprnet.org/).
 
-Privency.tech focuses solely on identity, authentication and authorization.
+Privency.org may have data and metadata privacy features, but Privency.tech focuses solely on identity, authentication and authorization,
 
 ## Privency.org - the e-democracy social network
 
