@@ -161,6 +161,7 @@ Web app devs could configure their Privency.tech auth server to:
 How to technically achieve #2?
 
 I haven't explored it in much details yet, but my intuition is that:
+- this a typical use-case where smart-contract and general-purpose blockchains shine. I don't see any credible alternative.
 - an encrypted version of the government ID should be sent to the web app server
 - this encrypted government ID can only be decrypted once a certain public smart-contract has been called by an account controlled by the department of justice
 - once the smart-contract is called by the designated entity, it generates the decryption key that only the department of justice can make use of to reveal the user's identity
