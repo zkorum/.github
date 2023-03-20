@@ -8,7 +8,7 @@ Privency is both:
 
 Privency is a work-in-progress project that is actively built in public by @nicobao.
 
-@nicobao will seek to sustain the development of Privency by offering commercial services.
+@nicobao will seek to sustain the development of Privency by finding an ethical and profitable funding/business model route.
 
 Privency will always remain *100% open-source*.
 
