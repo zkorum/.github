@@ -183,7 +183,7 @@ We could imagine other conditions to allow for revealing user's identity. For ex
 - solving user data privacy. There are already projects working towards this direction, namely [WNFS](https://guide.fission.codes/developers/webnative/file-system-wnfs) for local-first edge applications, and [zama.ai](https://www.zama.ai/), through its set of fully-homomorphic encryption tools. 
 - solving user metadata privacy. There are already projects working towards this direction, namely mixnets such as [Tor](https://www.torproject.org/) or [HOPR](https://hoprnet.org/).
 
-Privency focuses solely on identity, authentication and authorization.
+Privency.tech focuses solely on identity, authentication and authorization.
 
 ## Privency.org - the e-democracy social network
 
