@@ -193,7 +193,7 @@ It will be the very fist social network of its kind, that allows for:
 - 1 account = 1 human
 - zkKYC all users
 - restricted discussions groups per nationality, profession...etc
-- reliable and trustless e-voting system (unlike Twitter's polls)
+- reliable and trustless e-voting and polling system
 - users, while anonymous, will be held accountable for their words (transparency). Different groups will be subject to different juridisctions and rules
 
 Besides its intrinsic use-case, Privency.org will serve as a pilot customer for Privency.tech.
