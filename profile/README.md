@@ -1,15 +1,10 @@
 # Privency
 
-Privency is a set of unopinionated software tools that attempt to solve the dilemma between:
-- PRIVacy, freedom and democracy on one side (example: protecting whistleblowers, proving that we are over 18 without giving away more information)
-- transparENCY, control and justice on the other side (example: preventing cyber-bullies or money launderers to stay anonymous and go unpunished)
-
-Privency is NOT bound to a specific blockchain or token. In fact unless strictly necessary for technical reasons, Privency will not use blockchain technology. It will probably be necessary for the "transparency" aspect of the project, as well as to support blockchain-specific did:method, but these features will be optional.
-
-Privency can be very useful for web2 & web3 applications alike.
-
-App developers and smart-contract developers have complete freedom to choose the spectrum between transparency and privacy that they want their users to abide to. 
-Users have complete freedom to accept to use an app/smart-contract or not.
+Privency is both:
+- Privency.tech => a set of unopinionated software tools that attempt to solve the dilemma between:
+	- PRIVacy, freedom and democracy on one side (example: protecting whistleblowers, proving that we are over 18 without giving away more information)
+	- transparENCY, control and justice on the other side (example: preventing cyber-bullies or money launderers to stay anonymous and go unpunished)
+- Privency.org built on top of Privacy.tech => the very first privacy-preserving social network where 1 user = 1 verified human, providing bottom-up e-democracy tools such as reliable polls and voting
 
 Privency is a work-in-progress project that is actively built in public by @nicobao.
 
@@ -51,6 +46,13 @@ Privency aims to be exactly that solution.
 
 ## How does Privency.tech solves this problem?
 
+Privency.tech is NOT bound to a specific blockchain or token. In fact unless strictly necessary for technical reasons, Privency.tech will not use blockchain technology. It will probably be necessary for the "transparency" aspect of the project, as well as to support blockchain-specific did:method, but these features will be optional.
+
+Privency.tech can be very useful for off-chain & on-chain applications alike.
+
+App developers and smart-contract developers have complete freedom to choose the spectrum between transparency and privacy that they want their users to abide to. 
+Users have complete freedom to accept to use an app/smart-contract or not.
+
 ### Privacy-preserving proof of humanity
 
 #### Non government-based approach
@@ -64,7 +66,7 @@ There are already a lot of open-source projects that attempt to prove personhood
 - [Fractal ID](https://web.fractal.id/)
 - ... and more
 
-Privency does not intend to reinvent the wheel here.
+Privency.tech does not intend to reinvent the wheel here.
 
 #### Using government ID (KYC/AML)
 
@@ -73,7 +75,7 @@ Privency does not intend to reinvent the wheel here.
 There are no open-source solution of my knowledge that can be used to parse a government ID using Image Vision & ML, analyze video/picture of the user, compare the two and output a corresponding [Verifiable Credential](https://www.w3.org/TR/vc-data-model/). Essentially there is no open-source Know Your Customer (KYC) solution.
 And of course there is no open-source solution to go through this process in a privacy-preserving way.
 
-A privacy-preserving KYC library could be one of the tools included in Privency.
+A privacy-preserving KYC library could be one of the tools included in Privency.tech.
 This library could be reused in a variety of situation, from blockchain account abstraction to a traditional web auth server.
 
 To make the verification private, the actual analysis will either be done: 
@@ -95,7 +97,7 @@ The most promising library is probably [ezkl](https://github.com/zkonduit/ezkl).
 Instead of parsing government credentials, we could simply assume that trusted government agencies issuing IDs hold a private key, that could be ~the same as the private key identifying their DNS domain, using the [did:web](https://w3c-ccg.github.io/did-method-web/) method, which is already widely popular in the SSI ecosystem.
 
 Then, we assume that humans go to their government agency - the Issuer, go through a local KYC there, then on top of a traditional physical passport/ID, the agency delivers peer-to-peer a digital Verifiable Credential to the human - the Holder.
-This Verifiable Credential is digitally signed by the Issuer and address the Holder via his [Decentralized Identifier](https://www.w3.org/TR/did-core/). (Here arises a complicated problem: which did:method to use for individuals? How to conveniently and securely store keys? Privency would provide the toolbox to support a wide variety of did:method and leave the choice to the developers.)
+This Verifiable Credential is digitally signed by the Issuer and address the Holder via his [Decentralized Identifier](https://www.w3.org/TR/did-core/). (Here arises a complicated problem: which did:method to use for individuals? How to conveniently and securely store keys? Privency.tech would provide the toolbox to support a wide variety of did:method and leave the choice to the developers.)
 
 Finally, when the Holder needs to prove claims in its Verifiable Credential (being French or over 18 to access certain content for example), he can present zk proof of them to the Verifier which is a third-party server application (or a smart contract).
 
@@ -110,7 +112,7 @@ Some interesting resources:
 
 Once we get the digital ID as a Verifiable Credential - we can start proving properties about it without revealing more information, using zero-knowledge proof.
 
-This is called "selective disclosure" and it is already wildly used in the SSI space. Privency doesn't intend to reinvent the wheel here.
+This is called "selective disclosure" and it is already wildly used in the SSI space. Privency.tech doesn't intend to reinvent the wheel here.
 
 Some related articles/libraries:
 - https://github.com/evernym/coconut-rust
@@ -150,7 +152,7 @@ Same as above, but for blockchain accounts, abstracting away their usage, for ex
 
 ### What about transparency?
 
-Web app devs could configure their Privency auth server to:
+Web app devs could configure their Privency.tech auth server to:
 1. only accept a proof of humanity based on certain condition (French ID and over age 18)
 1. require the real government ID to be revealed *transparently* if a judge fill a formal request after the anonymous user has been sued for an action associated with his anonymous identifier. The content of the identity is only revealed to the judge, but the *access* to this identity is *public*
 
@@ -167,14 +169,7 @@ This way, like today governments can still misbehave, but unlike today they tech
 
 We could imagine other conditions to allow for revealing user's identity. For example - we could decide that on top of the department of justice requesting it, we need more than 50% of the most active users to vote for revealing the identity. How to determine the amount of users, or the most active users? I am not sure yet.
 
-## Non-goals
-
-- solving user data privacy. There are already projects working towards this direction, namely [WNFS](https://guide.fission.codes/developers/webnative/file-system-wnfs) for local-first edge applications, and [zama.ai](https://www.zama.ai/), through its set of fully-homomorphic encryption tools. 
-- solving user metadata privacy. There are already projects working towards this direction, namely mixnets such as [Tor](https://www.torproject.org/) or [HOPR](https://hoprnet.org/).
-
-Privency focuses solely on identity, authentication and authorization.
-
-## Potential use cases
+### Potential Privency.tech use cases
 
 - social network and e-democracy
 - government organization
@@ -183,7 +178,14 @@ Privency focuses solely on identity, authentication and authorization.
 - e-commerce
 - healthcare software systems
 
-## Privency.org - the social network
+### Non-goals
+
+- solving user data privacy. There are already projects working towards this direction, namely [WNFS](https://guide.fission.codes/developers/webnative/file-system-wnfs) for local-first edge applications, and [zama.ai](https://www.zama.ai/), through its set of fully-homomorphic encryption tools. 
+- solving user metadata privacy. There are already projects working towards this direction, namely mixnets such as [Tor](https://www.torproject.org/) or [HOPR](https://hoprnet.org/).
+
+Privency focuses solely on identity, authentication and authorization.
+
+## Privency.org - the e-democracy social network
 
 Privency.org will be a social network based on Privency.tech - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enhancing e-democracy.
 
@@ -191,12 +193,10 @@ It will be the very fist social network of its kind, that allows for:
 - 1 account = 1 human
 - zkKYC all users
 - restricted discussions groups per nationality, profession...etc
-- reliable e-voting system (unlike Twitter's polls)
-- users, while anonymous, will be held accountable for their words. Different groups will be subject to different juridisctions and rules
+- reliable and trustless e-voting system (unlike Twitter's polls)
+- users, while anonymous, will be held accountable for their words (transparency). Different groups will be subject to different juridisctions and rules
 
 Besides its intrinsic use-case, Privency.org will serve as a pilot customer for Privency.tech.
-
-If successful, it will be a good marketing public-facing app showcasing Privacy.tech capabilities.
 
 ## Resources
 
