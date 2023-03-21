@@ -154,7 +154,9 @@ Same as above, but for blockchain accounts, abstracting away their auth from key
 
 ### What about transparency?
 
-Web app devs could configure their Privency.tech auth server to:
+Cryptographic verifiability is already a form of transparency. It helps minimize trust, spam and sybil attacks.
+
+If you want to go further, Web app devs could configure their Privency.tech auth server to:
 1. only accept a proof of humanity based on certain condition (French ID and over age 18)
 1. require the real government ID to be revealed *transparently* if a judge fill a formal request after the anonymous user has been sued for an action associated with his anonymous identifier. The content of the identity is only revealed to the judge, but the *access* to this identity is *public*
 
@@ -171,6 +173,9 @@ I haven't explored it in much details yet, but my intuition is that:
 This way, like today governments can still misbehave, but unlike today they technically *cannot misbehave privately*.
 
 We could imagine other conditions to allow for revealing user's identity. For example - we could decide that on top of the department of justice requesting it, we need more than 50% of the most active users to vote for revealing the identity. How to determine the amount of users, or the most active users? I am not sure yet.
+
+This is a totally optional feature because it is highly controversial. 
+It is NOT featured in Privency.org.
 
 ### Potential Privency.tech use cases
 
@@ -197,7 +202,11 @@ It will be the very fist social network of its kind, that allows for:
 - zkKYC all users
 - restricted discussions groups per nationality, profession...etc
 - reliable and trustless e-voting and polling system
-- users, while anonymous, will be held accountable for their words (transparency). Different groups will be subject to different juridisctions and rules
+
+What about transparency? Privency.org already minimizes trust, for example by using content-addressing. Data isn't siloed in Privency.org server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
+
+How to punish harassment?
+==> like with existing social network: report, AI and ban. Because users are verified and can only have one account, getting banned is bigger of a deal than with existing social medias. I presume it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled, the private information never leave the user's personal devices.
 
 Besides its intrinsic use-case, Privency.org will serve as a pilot customer for Privency.tech.
 
