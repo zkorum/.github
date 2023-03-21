@@ -245,7 +245,9 @@ Without metadata privacy, it would be easy to associate all the "anonymous ident
 
 ### What about users revealing personal info themselves? 
 
-This is mostly out of our control, and it's okay. We could provide educational content. By running natural language processing tool locally on the frontend, we could warn the users that the content they are about to send is about to reveal personal information and it is not recommended for anonymous identifiers. Besides the anonymous identifiers, it will be possible to create a public identifier on _Privency.org_ that will be associated with as many verified information as users want. This is particularly suitable for public figures, public organizations, or anyone willing to reveal their identity in public. It will be like the Twitter blue tick - but that actually works, because it will be based on real cryptographic verification.
+This is mostly out of our control, and it's okay. We could provide educational content. By running natural language processing tool locally on the frontend, we could warn the users that the content they are about to send is about to reveal personal information and it is not recommended for anonymous identifiers. 
+
+Besides the anonymous identifiers, it will be possible to create a public identifier on _Privency.org_ that will be associated with as many verified information as users want. This is particularly suitable for public figures, public organizations, or anyone willing to reveal their identity in public. It will be like the Twitter blue tick - but that actually works, because it will be based on real cryptographic verification.
 
 ### What about the way people write? Can it be used to reveal their identity? 
 
