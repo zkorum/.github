@@ -211,18 +211,24 @@ The fee could be turned off, but the very existence of this switch could convinc
 
 ## _Privency.org_ - the e-democracy social network
 
-_Privency.org_ will be a social network based on _Privency.tech_ - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enhancing e-democracy.
+_Privency.org_ will be a social network based on _Privency.tech_ - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enabling e-democracy to emerge.
 
 It will be the very fist social network of its kind, that allows for:
-- zkKYC all users: preserving their anonymity while verifying them
-- restricted discussions groups per nationality, profession...etc
+- zkKYC all users: preserving users anonymity while verifying their credentials
+- restricted discussions groups per nationality, profession, age, club membership...etc
 - reliable and trustless e-voting and polling system
-- each human has unique characteristic represented by the verifiable credentials they hold. They can create an account for each designated social groups, and it is technically impossible to link the accounts together. Ex: there could be a discussion group for parents in France, and another for Indians immigrants in France. One human could have a "parent in France" account and an "Indian with legal residency in France" account. This way, the human can speak as a parent in the restricted group of parents with legal residence in France without revealing he is an Indian immigrant, and vice-versa.
+- each human has unique characteristics represented by the verifiable credentials they hold. They have a specific account (or "identifier") for each designated social groups, and by design it will be technically impossible to link the identifiers together. Ex: there could be a discussion group for parents in France, and another for Indians immigrants in France. One human could have a "parent in France" account and an "Indian with legal residency in France" account. This way, the human can speak as a parent in the restricted group of parents with legal residence in France without revealing he is an Indian immigrant, and vice-versa. That would allow for each parent voice to be heard independently of other unrelated aspects, that could otherwise trigger subconscious cognitive bias and result in discrimination. It would also allow for under-represented groups to speak up without endangering their personal interest.
 
 What about transparency? _Privency.org_ already minimizes trust, for example by using content-addressing. Data isn't siloed in _Privency.org_ server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
 
+What about metadata privacy? Without metadata privacy, it would be easy to associate all the "identifier" together. If the requests come from the same IP address, then it is easy to deduce that it is likely to be the same person. How to solve this issue? We could either encourage people to use Tor/HOPR or directly enforce its usage in the frontend.
+
+What about users revealing personal info themselves? This is mostly out of our control, and it's okay. We could provide educational content. By running natural language processing tool locally on the frontend, we could warn the users that the content they are about to send is about to reveal personal information and it is not recommended for anonymous identifiers. Besides the anonymous identifiers, it will be possible to create a public identifier on _Privency.org_ that will be associated with as many verified information as users want. This is particularly suitable for public figures, public organizations, or anyone willing to reveal their identity in public.
+
+What about the way people write? Can it be used to reveal their identity? Yes. To mitigate this, we can provide educational content and eventually leverage AI tools to provide the option for users to "rewrite" their content in a random style before posting.
+
 How to punish harassment?
-==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled: private information never leaves the user's personal devices.
+==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume that together with having 0% bots, it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled: private information never leaves the user's personal devices.
 
 Besides its intrinsic use-case, _Privency.org_ will serve as a pilot customer for _Privency.tech_.
 
@@ -244,13 +250,13 @@ For example, if you're an advertiser that have identified that your typical pote
 
 To make money, _Privency.org_ will be incentivized to:
 - keep user's privacy 100% safe, otherwise users won't come
-- verify as many parameters about the users as possible in order to provide the most tailored service to advertisers
+- verify as many credentials about the users as possible in order to provide the most tailored service to advertisers
 
-A little compromise is necessary:
-- the value for users relies on being able to distinguish different aspect of them: they can speak in a group restricted to people under 40 years old, and in another group for Korean profesors, without that anyone can technically link the two identifiers together and know that in fact, it's the same person speaking.
-- but the value for advertisers is to link both information, in order to target their specific audience: Korean profesor under the age of 40.
-
-The challenge is therefore to find the right discussion groups, that will satisfy both users and advertisers.
+Value proposition for each stakeholder:
+- the value for users is to be able to distinguish different aspect of them: they can speak in a group restricted to people under 40 years old, and in another group for Korean profesors, without that anyone can technically link the two identifiers together and know that in fact, it's the same person speaking.
+- the value for advertisers is to link both information, in order to target their specific audience: Korean profesor under the age of 40.
+- to provide value to both stakeholders, we need to send the potential ads client side, and let the client software decide what to actually present, depending on what's valuable for them according to the user's credentials - that is only available client side.
+- both users and advertisers benefit from knowing that users are verified
 
 This business model would allow to make money without compromising on the core values of _Privency_.
 
