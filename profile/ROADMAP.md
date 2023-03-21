@@ -25,8 +25,8 @@ PoC features:
 - To showcase Privency capability, we want to make an app that only allow registering people over 18 that holds a French citizenship or a French residency card
 - Each unique person can only create 1 account
 - The app should not be able to know the personal info of the users - only that they pass the requirements
-- Whenever a certain public smart-contract is called, the identity will be revealed to the caller
-- This app will be a basic forum.
+- this app will be a basic forum with restricted write access for French citizens over 18.
+- anyone can start a poll, and people can vote
 
 Assumptions and limitations:
 - zkML would be too long to implement so we assume users hold a valid Verifiable Credential containing their personal ID data
@@ -44,11 +44,14 @@ Auth Server for web app:
 - on login, repeat the same verification
 - on successful login, the server will issue a UCAN to the front as a bearer token - then same as oauth2
 
+Ethereum account abstraction:
+- we need blockchain for voting
+- an unlimited amount of Eth accounts can be claimed representing the same human through the same process as described above for the auth server. We need to be able to link the Ethereum accounts with the web server account. They all should be associated with the same unique anonymous ID.
+
 Transparency:
-- we put aside account abstraction for this PoC and we consider that the ministry of justice is represented by a specific EOA known in advance
-- create an EVM-compatible smart-contract that can only be called by the EOA of the ministry of justice
-- this smart-contract exposes a function that takes two parameters as input: the anonymous ID of the incriminated user and a CID representing data pinned in IPFS justifying the identity access (lawsuit info)
-- the rest is TBD
+- no doxxing of government ID is allowed, the verifiable credential remain private on the user's device
+- we use IPFS, WNFS, UCAN, content-addressing, freeing data from server's silo and minimizing trust
+- we use [Snapshot](https://docs.snapshot.org/) for voting, probably using [Ethereum Attestation Service](https://attest.sh/) ==> among the votes from the Ethereum accounts associated with the same user, only the last vote will count. We will use Gnosis Chain.
 
 Marketing:
 - Launch a short website to present the PoC
@@ -68,5 +71,5 @@ Find solution for funding:
 
 Expensive things to fund:
 - zkML
-- account abstraction for crypto wallets
+- battle-tested account abstraction for crypto wallets
 - production-grade equivalent of the authorization server/client created for the PoC

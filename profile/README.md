@@ -46,7 +46,7 @@ Privency aims to be exactly that solution.
 
 ## How does Privency.tech solves this problem?
 
-Privency.tech is NOT bound to a specific blockchain or token. In fact unless strictly necessary for technical reasons, Privency.tech will not use blockchain technology. It will probably be necessary for the "transparency" aspect of the project, as well as to support blockchain-specific did:method, but these features will be optional.
+Privency.tech is NOT bound to a specific blockchain or token. In fact unless strictly necessary for technical reasons, Privency.tech will not use blockchain technology. It will probably be necessary for the "transparency" aspect of the project, to support voting, as well as to support blockchain-specific did:method, but these features will be optional.
 
 Privency.tech can be very useful for off-chain & on-chain applications alike.
 
