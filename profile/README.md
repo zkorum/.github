@@ -193,6 +193,22 @@ It is NOT featured in Privency.org.
 
 Privency.org may have data and metadata privacy features, but Privency.tech focuses solely on identity, authentication and authorization,
 
+### Business Model
+
+#### off-chain solution: SaaS and consulting
+
+Like Keycloak, the authentication could be either self-hosted or hosted in the cloud.
+
+We could provide services to companies looking for help and assurance to self-host their product.
+
+We could host the authentication server on behalf of customers in our cloud.
+
+#### on-chain solution: Smart-contract fee
+
+We could configure a small fee that is sent to our account whenever someone call a smart-contract that we have written.
+
+The fee could be turned off, but the very existence of this switch could convince investors of the potential income (Uniswap does exactly that).
+
 ## Privency.org - the e-democracy social network
 
 Privency.org will be a social network based on Privency.tech - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enhancing e-democracy.
@@ -209,6 +225,38 @@ How to punish harassment?
 ==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled: private information never leaves the user's personal devices.
 
 Besides its intrinsic use-case, Privency.org will serve as a pilot customer for Privency.tech.
+
+### Business model
+
+Besides its intrinsic use-case, Privency.org represents a marketing product that, if successful, will popularize and showcase Privacy.tech capabilities, boosting Privency.tech revenue.
+
+Other than that, there are two possible routes to fund Privency.org.
+
+#### Advertisement
+
+Like most social networks, Privency.org can rely on advertisements. Responsible and ethical advertisements are a good way to fund expensive, yet useful public goods. Like Netflix does, I would love to provide an option to turn off advertisement, in exchange for payment. The challenge here, is that payment would require Privency.org to KYC our users by law. zkKYC doesn't exist in the eye of the law - there is no alternative. We could use cryptocurrencies, but regulation on crypto payment is even stricter than for fiat payment. That is why there will be no option to turn off advertisements at launch.
+
+Because we have 0% bots, 100% real humans, and 100% verified attributes about these human, we can offer a unique solution to advertisers.
+
+On Twitter, ads target 90% bots, and a complicated algorithm is used to suggest products that have little to do with the real human behind the users. 
+
+For example, if you're an advertiser that have identified that your typical potential customers are Korean profesors under the age of 40, Privency.org can certify you that there are 500 000 distinct verified Korean profesors in the Korean profesors, and 30M people under the age of 30 in the different discussion groups of the platform, then help you target them with your advertisement.
+
+To make money, Privency.org will be incentivized to:
+- keep user's privacy 100% safe, otherwise users won't come
+- verify as many parameters about the users as possible in order to provide the most tailored service to advertisers
+
+A little compromise is necessary:
+- the value for users, is that they can distinguish different aspect of them - they can speak in a group restricted to people under 30 years old, and in another group for Korean profesors, without that anyone can technically link the two identifiers.
+- but the value for advertisers is to link both information, in order to target their specific audience: Korean profesor under the age of 30.
+
+The challenge is therefore to find the right discussion groups, that will satisfy both users and advertisers.
+
+This business model would allow to make money without compromising on the core values of Privency.
+
+#### Donation 
+
+Privency.org can rely on donation - a la Wikipedia. After all, this product is a public good, so it is easy to justify.
 
 ## Resources
 
