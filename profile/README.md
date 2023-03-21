@@ -213,7 +213,7 @@ The fee could be turned off, but the very existence of this switch could convinc
 
 _Privency.org_ will be a social network based on _Privency.tech_ - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enabling e-democracy to emerge.
 
-It will be the very fist social network of its kind, featuring:
+It will be the very first social network of its kind, featuring:
 - zkKYC all users: preserving users anonymity while verifying their credentials
 - restricted discussions groups per nationality, profession, age, club membership...etc
 - reliable and trustless e-voting and polling system
