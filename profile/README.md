@@ -259,7 +259,7 @@ Like existing social networks:
 - report and suspend/ban users
 - use natural language processing as much as possible to detect bad behavior. 
 
-Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume that together with having 0% bots, it is enough to drastically diminish the amount of bad actors compared to existing social networks. 
+Because users are verified and can only have two accounts per discussion group (one anonymous + eventually the public identifier), getting banned is bigger of a deal than with existing social medias. I presume that together with having 0% bots, it is enough to drastically diminish the amount of bad actors compared to existing social networks. 
 
 No doxxing of government ID is enabled: private information never leaves the user's personal devices.
 
