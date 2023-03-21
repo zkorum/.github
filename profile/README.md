@@ -198,15 +198,15 @@ Privency.org may have data and metadata privacy features, but Privency.tech focu
 Privency.org will be a social network based on Privency.tech - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enhancing e-democracy.
 
 It will be the very fist social network of its kind, that allows for:
-- 1 account = 1 human
-- zkKYC all users
+- zkKYC all users: preserving their anonymity while verifying them
 - restricted discussions groups per nationality, profession...etc
 - reliable and trustless e-voting and polling system
+- each human has unique characteristic represented by the verifiable credentials they hold. They can create an account for each designated social groups, and it is technically impossible to link the accounts together. Ex: there could be a discussion group for parents in France, and another for Indians immigrants in France. One human could have a "parent in France" account and an "Indian with legal residency in France" account. This way, the human can speak as a parent in the restricted group of parents with legal residence in France without revealing he is an Indian immigrant, and vice-versa.
 
 What about transparency? Privency.org already minimizes trust, for example by using content-addressing. Data isn't siloed in Privency.org server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
 
 How to punish harassment?
-==> like with existing social network: report, AI and ban. Because users are verified and can only have one account, getting banned is bigger of a deal than with existing social medias. I presume it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled, the private information never leave the user's personal devices.
+==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled: private information never leaves the user's personal devices.
 
 Besides its intrinsic use-case, Privency.org will serve as a pilot customer for Privency.tech.
 
