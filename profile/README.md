@@ -44,7 +44,7 @@ That is why we need an unopinionated software toolbox, that:
 
 _Privency.tech_ aims to be exactly that solution.
 
-## How does _Privency.tech_ solves this problem?
+## How does _Privency.tech_ solve this problem?
 
 _Privency.tech_ is NOT bound to a specific blockchain or token. In fact unless strictly necessary for technical reasons, _Privency.tech_ will not use blockchain technology. It will probably be necessary for the "transparency" aspect of the project, to support voting, as well as to support blockchain-specific did:method, but these features will be optional.
 
