@@ -267,7 +267,7 @@ _Privency.org_ is not TikTok, Instagram or Facebook. There is no social network 
 
 ### Business model
 
-Besides its intrinsic use-case, _Privency.org_ represents a marketing product that, if successful, will popularize and showcase Privacy.tech capabilities, boosting _Privency.tech_ revenue.
+Besides its intrinsic use-case, _Privency.org_ represents a marketing product that, if successful, will popularize and showcase _Privacy.tech_ capabilities, boosting _Privency.tech_ revenue.
 
 Other than that, there are two possible routes to fund _Privency.org_.
 
