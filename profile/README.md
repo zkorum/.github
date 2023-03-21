@@ -3,7 +3,7 @@
 Privency is both:
 - Privency.tech => a set of unopinionated software tools that attempt to solve the dilemma between:
 	- PRIVacy, freedom and democracy on one side (example: protecting whistleblowers, proving that we are over 18 without giving away more information)
-	- transparENCY, control and justice on the other side (example: minimizing the trust needed in a third-party service (web app), preventing cyber-bullies or money launderers to stay anonymous and go unpunished)
+	- transparENCY, control and justice on the other side (example: minimizing the trust needed in a third-party service, preventing cyber-bullies or money launderers to stay anonymous and go unpunished)
 - Privency.org built on top of Privacy.tech => the very first privacy-preserving social network where 1 user = 1 verified human, providing bottom-up e-democracy tools such as reliable polls and voting
 
 Privency is a work-in-progress project that is actively built in public by @nicobao.
