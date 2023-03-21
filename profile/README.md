@@ -294,7 +294,7 @@ To make money, _Privency.org_ will be incentivized to:
 - verify as many credentials about the users as possible in order to provide the most tailored service to advertisers
 
 Value proposition for each stakeholder:
-- the value for users is to be able to distinguish different aspect of them: they can speak in a group restricted to people under 40 years old, and in another group for Korean profesors, without that anyone can technically link the two identifiers together and know that in fact, it's the same person speaking.
+- the value for users is to be able to distinguish different aspect of themselves: they can speak in a group restricted to people under 40 years old, and in another group for Korean profesors, without that anyone can technically link the two identifiers together and know that in fact, it's the same person speaking.
 - the value for advertisers is to link both information, in order to target their specific audience: Korean profesor under the age of 40.
 - to provide value to both stakeholders, we need to send the potential ads client side, and let the client software decide what to actually present, depending on what's valuable for them according to the user's credentials - that is only available client side.
 - both users and advertisers benefit from knowing that users are verified
