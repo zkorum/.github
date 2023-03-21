@@ -179,7 +179,7 @@ This is a totally optional feature because it is highly controversial.
 This feature is NOT used in _Privency.org_, because:
 1. this feature is impossible to implement without getting the ministry of justice involved
 1. this feature is technically very challenging
-1. the legally of this feature is uncertain
+1. the legality of this feature is uncertain
 1. this feature is likely to scare people away
 1. this feature is too prone to be hijacked by powerful people and a corrupted government
 
