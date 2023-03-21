@@ -197,7 +197,7 @@ Privency.org may have data and metadata privacy features, but Privency.tech focu
 
 #### off-chain solution: SaaS and consulting
 
-Like Keycloak, the authentication could be either self-hosted or hosted in the cloud.
+Like Keycloak, the authentication server could be either self-hosted or hosted in the cloud.
 
 We could provide services to companies looking for help and assurance to self-host their product.
 
@@ -240,7 +240,7 @@ Because we have 0% bots, 100% real humans, and 100% verified attributes about th
 
 On Twitter, ads target 90% bots, and a complicated algorithm is used to suggest products that have little to do with the real human behind the users. 
 
-For example, if you're an advertiser that have identified that your typical potential customers are Korean profesors under the age of 40, Privency.org can certify you that there are 500 000 distinct verified Korean profesors in the Korean profesors, and 30M people under the age of 30 in the different discussion groups of the platform, then help you target them with your advertisement.
+For example, if you're an advertiser that have identified that your typical potential customers are Korean profesors under the age of 40, Privency.org can certify you that there are 500 000 distinct verified Korean profesors in the Korean profesors, and 30M people under the age of 40 in the different discussion groups of the platform, then help you target them with your advertisement.
 
 To make money, Privency.org will be incentivized to:
 - keep user's privacy 100% safe, otherwise users won't come
