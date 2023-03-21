@@ -1,16 +1,16 @@
 # Privency
 
-Privency is both:
+_Privency_ is both:
 - _Privency.tech_ => a set of unopinionated digital identity tools that attempt to solve the dilemma between:
 	- **PRIV**acy, freedom and democracy on one side (example: protecting whistleblowers, proving that we are over 18 without giving away more information)
 	- transpar**ENCY**, control and justice on the other side (example: minimizing the trust needed in a third-party service, preventing cyber-bullies or money launderers to stay anonymous and go unpunished)
 - _Privency.org_ built on top of _Privency.tech_ => the very first privacy-preserving social network where 1 user = 1 verified human, providing bottom-up e-democracy tools such as reliable polls and voting
 
-Privency is a work-in-progress project that is actively built in public by @nicobao.
+_Privency_ is a work-in-progress project that is actively built in public by @nicobao.
 
-@nicobao will seek to sustain the development of Privency by finding an ethical and profitable funding/business model route.
+@nicobao will seek to sustain the development of _Privency_ by finding an ethical and profitable funding/business model route.
 
-Privency will always remain *100% open-source*.
+_Privency_ will always remain *100% open-source*.
 
 The [Roadmap](./ROADMAP.md) is continuously updated.
 
@@ -252,7 +252,7 @@ A little compromise is necessary:
 
 The challenge is therefore to find the right discussion groups, that will satisfy both users and advertisers.
 
-This business model would allow to make money without compromising on the core values of Privency.
+This business model would allow to make money without compromising on the core values of _Privency_.
 
 #### Donation 
 
