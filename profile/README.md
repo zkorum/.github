@@ -12,7 +12,7 @@ _Privency_ is a work-in-progress project that is actively built in public by @ni
 
 _Privency_ will always remain *100% open-source*.
 
-The [Roadmap](./ROADMAP.md) is continuously updated.
+The [Roadmap](./ROADMAP.md) as well as this document are continuously updated.
 
 ## The problem we try to solve
 
