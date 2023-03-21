@@ -73,3 +73,4 @@ Expensive things to fund:
 - zkML
 - battle-tested account abstraction for crypto wallets
 - production-grade equivalent of the authorization server/client created for the PoC
+- production-grade equivalent of the PoC forum => Privency.org - the social network
