@@ -88,7 +88,7 @@ I explored #1.
 
 \#1 is a work-in-progress research-level topic, BUT there have been significant improvements in the past few years.
 
-The [zkML Community](https://github.com/worldcoin/awesome-zkml) is a new online community that aims to gather people interested in builder and using tools for generating zero-knowledge proofs of ML/Image Vision algorithms.
+The [zkML Community](https://github.com/worldcoin/awesome-zkml) is a new online community that aims to gather people interested in building tools for generating zero-knowledge proofs of ML/Image Vision algorithms.
 
 The most promising library is probably [ezkl](https://github.com/zkonduit/ezkl).
 
@@ -191,7 +191,7 @@ It is NOT featured in _Privency.org_.
 - solving user data privacy. There are already projects working towards this direction, namely [WNFS](https://guide.fission.codes/developers/webnative/file-system-wnfs) for local-first edge applications, and [zama.ai](https://www.zama.ai/), through its set of fully-homomorphic encryption tools. 
 - solving user metadata privacy. There are already projects working towards this direction, namely mixnets such as [Tor](https://www.torproject.org/) or [HOPR](https://hoprnet.org/).
 
-_Privency.org_ may have data and metadata privacy features, but _Privency.tech_ focuses solely on identity, authentication and authorization,
+_Privency.org_ will have data and metadata privacy features, but _Privency.tech_ focuses solely on identity, authentication and authorization,
 
 ### Business Model
 
@@ -213,19 +213,23 @@ The fee could be turned off, but the very existence of this switch could convinc
 
 _Privency.org_ will be a social network based on _Privency.tech_ - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enabling e-democracy to emerge.
 
-It will be the very fist social network of its kind, that allows for:
+It will be the very fist social network of its kind, featuring:
 - zkKYC all users: preserving users anonymity while verifying their credentials
 - restricted discussions groups per nationality, profession, age, club membership...etc
 - reliable and trustless e-voting and polling system
 - each human has unique characteristics represented by the verifiable credentials they hold. They have a specific account (or "identifier") for each designated social groups, and by design it will be technically impossible to link the identifiers together. Ex: there could be a discussion group for parents in France, and another for Indians immigrants in France. One human could have a "parent in France" account and an "Indian with legal residency in France" account. This way, the human can speak as a parent in the restricted group of parents with legal residence in France without revealing he is an Indian immigrant, and vice-versa. That would allow for each parent voice to be heard independently of other unrelated aspects, that could otherwise trigger subconscious cognitive bias and result in discrimination. It would also allow for under-represented groups to speak up without endangering their personal interest.
 
-What about transparency? _Privency.org_ already minimizes trust, for example by using content-addressing. Data isn't siloed in _Privency.org_ server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
+What about transparency? _Privency.org_ minimizes trust by using content-addressing. Data isn't siloed in _Privency.org_ server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
 
-What about metadata privacy? Without metadata privacy, it would be easy to associate all the "identifier" together. If the requests come from the same IP address, then it is easy to deduce that it is likely to be the same person. How to solve this issue? We could either encourage people to use Tor/HOPR or directly enforce its usage in the frontend.
+What about data privacy? In first versions of _Privency.org_, everyone will be able to read data from every groups (public read access). Only write access will be limited. However in the long-term, we can imagine to implement restricted read access, by using fully-homomorphic encryption. Whenever data leaves the user's device, it would be encrypted using FHE, allowing for _Privency.org_ 's server to provide search capabilities, without having access to the actual data. The reason why this feature is postponed is a/ it's isn't obvious that private-read-access group will be interesting for users, and b/ FHE comes with a series of technological challenges, as it is known for its performance issues. 
+
+What about deleting data? Users can request to delete data. The list of deleted CID will be maintained by _Privency.org_, so that everyone holding this data can stop pinning them and stop displaying them in their frontend if they have them.
+
+What about metadata privacy? Without metadata privacy, it would be easy to associate all the "anonymous identifiers" together. If the requests from 2 different identifiers come from the same IP address, then it is easy to deduce that it is likely to be the same person. How to solve this issue? We could either encourage people to use Tor/HOPR or directly enforce its usage in the frontend (the latter is preferred).
 
 What about users revealing personal info themselves? This is mostly out of our control, and it's okay. We could provide educational content. By running natural language processing tool locally on the frontend, we could warn the users that the content they are about to send is about to reveal personal information and it is not recommended for anonymous identifiers. Besides the anonymous identifiers, it will be possible to create a public identifier on _Privency.org_ that will be associated with as many verified information as users want. This is particularly suitable for public figures, public organizations, or anyone willing to reveal their identity in public.
 
-What about the way people write? Can it be used to reveal their identity? Yes. To mitigate this, we can provide educational content and eventually leverage AI tools to provide the option for users to "rewrite" their content in a random style before posting.
+What about the way people write? Can it be used to reveal their identity? Yes. To mitigate this, we can provide educational content and eventually leverage AI tools to provide the option for users to automatically "rewrite" their content in a random style before posting.
 
 How to punish harassment?
 ==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume that together with having 0% bots, it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled: private information never leaves the user's personal devices.
