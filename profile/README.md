@@ -244,7 +244,7 @@ This is mostly out of our control, and it's okay. We could provide educational c
 ### What about the way people write? Can it be used to reveal their identity? 
 
 Yes, it can. To mitigate this, we can provide educational content and eventually leverage AI tools to provide the option for users to automatically "rewrite" their content in a random style before posting.
-### How to bad actors? (harassment, etc...)
+### How to punish bad actors? (harassment, etc...)
 
 ==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume that together with having 0% bots, it is enough to drastically diminish the amount of bad actors. 
 
