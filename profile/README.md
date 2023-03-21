@@ -164,7 +164,7 @@ How to technically achieve #2?
 
 I haven't explored it in much details yet, but my intuition is that:
 - this a typical use-case where smart-contract and general-purpose blockchains shine. I don't see any credible alternative.
-- an encrypted version of the government ID should be sent to the web app server
+- an encrypted version of the government ID should be sent to the web app server. (I am uncertain that holding people's government IDs on a server is legal though, even in an encrypted form.)
 - this encrypted government ID can only be decrypted once a certain public smart-contract has been called by an account controlled by the department of justice
 - once the smart-contract is called by the designated entity, it generates the decryption key that only the department of justice can make use of to reveal the user's identity
 - to call the smart-contract, the department of justice must provide a proof: for example a case number or the CID of the data representing the lawsuit
@@ -175,7 +175,13 @@ This way, like today governments can still misbehave, but unlike today they tech
 We could imagine other conditions to allow for revealing user's identity. For example - we could decide that on top of the department of justice requesting it, we need more than 50% of the most active users to vote for revealing the identity. How to determine the amount of users, or the most active users? I am not sure yet.
 
 This is a totally optional feature because it is highly controversial. 
-It is NOT featured in _Privency.org_.
+
+This feature is NOT used in _Privency.org_, because:
+1. it is impossible to implement without getting the ministry of justice involved
+1. it is technically very challenging
+1. it is legally uncertain that it would be legal
+1. it is likely to scare people away
+1. it is too prone to be hijacked by powerful people and a corrupted government
 
 ### Potential _Privency.tech_ use cases
 
@@ -246,7 +252,12 @@ This is mostly out of our control, and it's okay. We could provide educational c
 Yes, it can. To mitigate this, we can provide educational content and eventually leverage AI tools to provide the option for users to automatically "rewrite" their content in a random style before posting.
 ### How to punish bad actors? (harassment, etc...)
 
-==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume that together with having 0% bots, it is enough to drastically diminish the amount of bad actors. 
+Like existing social networks: 
+- filtering out bad data
+- report and suspend/ban users
+- use natural language processing as much as possible to detect bad behavior. 
+
+Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume that together with having 0% bots, it is enough to drastically diminish the amount of bad actors compared to existing social networks. 
 
 No doxxing of government ID is enabled: private information never leaves the user's personal devices.
 
