@@ -229,7 +229,7 @@ Besides its intrinsic use-case, _Privency.org_ will serve as a pilot customer fo
 
 ### What about transparency? 
 
-_Privency.org_ minimizes trust by using content-addressing. Data isn't siloed in _Privency.org_ server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
+_Privency.org_ minimizes trust by using content-addressing. Data isn't siloed in _Privency.org_ server - it's free to live its own life, thanks to IPFS. That also helps community to form around their data, that is transparently accessible to them.
 
 ### What about data privacy? 
 
