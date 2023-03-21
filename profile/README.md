@@ -4,7 +4,7 @@ Privency is both:
 - _Privency.tech_ => a set of unopinionated digital identity tools that attempt to solve the dilemma between:
 	- **PRIV**acy, freedom and democracy on one side (example: protecting whistleblowers, proving that we are over 18 without giving away more information)
 	- transpar**ENCY**, control and justice on the other side (example: minimizing the trust needed in a third-party service, preventing cyber-bullies or money launderers to stay anonymous and go unpunished)
-- _Privency.org_ built on top of Privacy.tech => the very first privacy-preserving social network where 1 user = 1 verified human, providing bottom-up e-democracy tools such as reliable polls and voting
+- _Privency.org_ built on top of _Privency.tech_ => the very first privacy-preserving social network where 1 user = 1 verified human, providing bottom-up e-democracy tools such as reliable polls and voting
 
 Privency is a work-in-progress project that is actively built in public by @nicobao.
 
@@ -42,13 +42,13 @@ That is why we need an unopinionated software toolbox, that:
 - allows web developers to choose the set of rules they want their users to abide to
 - makes the web developers accountable for the set of rules they decided to choose. There is no turning back, and private access to user's identity must be technically impossible, every access occurence has to be public information, that can then be publicly monitored by users themselves.
 
-Privency.tech aims to be exactly that solution.
+_Privency.tech_ aims to be exactly that solution.
 
-## How does Privency.tech solves this problem?
+## How does _Privency.tech_ solves this problem?
 
-Privency.tech is NOT bound to a specific blockchain or token. In fact unless strictly necessary for technical reasons, Privency.tech will not use blockchain technology. It will probably be necessary for the "transparency" aspect of the project, to support voting, as well as to support blockchain-specific did:method, but these features will be optional.
+_Privency.tech_ is NOT bound to a specific blockchain or token. In fact unless strictly necessary for technical reasons, _Privency.tech_ will not use blockchain technology. It will probably be necessary for the "transparency" aspect of the project, to support voting, as well as to support blockchain-specific did:method, but these features will be optional.
 
-Privency.tech can be very useful for off-chain & on-chain applications alike.
+_Privency.tech_ can be very useful for off-chain & on-chain applications alike.
 
 App developers and smart-contract developers have complete freedom to choose the spectrum between transparency and privacy that they want their users to abide to. 
 Users have complete freedom to accept to use an app/smart-contract or not.
@@ -66,7 +66,7 @@ There are already a lot of open-source projects that attempt to prove personhood
 - [Fractal ID](https://web.fractal.id/)
 - ... and more
 
-Privency.tech does not intend to reinvent the wheel here.
+_Privency.tech_ does not intend to reinvent the wheel here.
 
 #### Using government ID (KYC/AML)
 
@@ -75,7 +75,7 @@ Privency.tech does not intend to reinvent the wheel here.
 There are no open-source solution of my knowledge that can be used to parse a government ID using Image Vision & ML, analyze video/picture of the user, compare the two and output a corresponding [Verifiable Credential](https://www.w3.org/TR/vc-data-model/). Essentially there is no open-source Know Your Customer (KYC) solution.
 And of course there is no open-source solution to go through this process in a privacy-preserving way.
 
-A privacy-preserving KYC library could be one of the tools included in Privency.tech.
+A privacy-preserving KYC library could be one of the tools included in _Privency.tech_.
 This library could be reused in a variety of situation, from blockchain account abstraction to a traditional web auth server.
 
 To make the verification private, the actual analysis will either be done: 
@@ -97,7 +97,7 @@ The most promising library is probably [ezkl](https://github.com/zkonduit/ezkl).
 Instead of parsing government credentials, we could simply assume that trusted government agencies issuing IDs hold a private key, that could be ~the same as the private key identifying their DNS domain, using the [did:web](https://w3c-ccg.github.io/did-method-web/) method, which is already widely popular in the SSI ecosystem.
 
 Then, we assume that humans go to their government agency - the Issuer, go through a local KYC there, then on top of a traditional physical passport/ID, the agency delivers peer-to-peer a digital Verifiable Credential to the human - the Holder.
-This Verifiable Credential is digitally signed by the Issuer and address the Holder via his [Decentralized Identifier](https://www.w3.org/TR/did-core/). (Here arises a complicated problem: which did:method to use for individuals? How to conveniently and securely store keys? Privency.tech would provide the toolbox to support a wide variety of did:method and leave the choice to the developers.)
+This Verifiable Credential is digitally signed by the Issuer and address the Holder via his [Decentralized Identifier](https://www.w3.org/TR/did-core/). (Here arises a complicated problem: which did:method to use for individuals? How to conveniently and securely store keys? _Privency.tech_ would provide the toolbox to support a wide variety of did:method and leave the choice to the developers.)
 
 Finally, when the Holder needs to prove claims in its Verifiable Credential (being French or over 18 to access certain content for example), he can present zk proof of them to the Verifier which is a third-party server application (or a smart contract).
 
@@ -112,7 +112,7 @@ Some interesting resources:
 
 Once we get the digital ID as a Verifiable Credential - we can start proving properties about it without revealing more information, using zero-knowledge proof.
 
-This is called "selective disclosure" and it is already wildly used in the SSI space. Privency.tech doesn't intend to reinvent the wheel here.
+This is called "selective disclosure" and it is already wildly used in the SSI space. _Privency.tech_ doesn't intend to reinvent the wheel here.
 
 Some related articles/libraries:
 - https://github.com/evernym/coconut-rust
@@ -131,7 +131,7 @@ However, we could imagine a zkKYC process that prove other information about the
 
 ### An authorization/authentication server and client for web applications
 
-Privency.tech provides an authorization/authentication server and client for web applications
+_Privency.tech_ provides an authorization/authentication server and client for web applications
 
 We could use the standard [OpenID for Verifiable Credentials](https://oauth.net/openid-for-verifiable-credentials/#:~:text=OpenID%20for%20Verifiable%20Credentials%20is,claims%20to%20a%20relying%20party.) 
 
@@ -156,7 +156,7 @@ Same as above, but for blockchain accounts, abstracting away their auth from key
 
 Cryptographic verifiability is already a form of transparency. It helps minimize trust, spam and sybil attacks.
 
-If you want to go further, Web app devs could configure their Privency.tech auth server to:
+If you want to go further, Web app devs could configure their _Privency.tech_ auth server to:
 1. only accept a proof of humanity based on certain condition (French ID and over age 18)
 1. require the real government ID to be revealed *transparently* if a judge fill a formal request after the anonymous user has been sued for an action associated with his anonymous identifier. The content of the identity is only revealed to the judge, but the *access* to this identity is *public*
 
@@ -175,9 +175,9 @@ This way, like today governments can still misbehave, but unlike today they tech
 We could imagine other conditions to allow for revealing user's identity. For example - we could decide that on top of the department of justice requesting it, we need more than 50% of the most active users to vote for revealing the identity. How to determine the amount of users, or the most active users? I am not sure yet.
 
 This is a totally optional feature because it is highly controversial. 
-It is NOT featured in Privency.org.
+It is NOT featured in _Privency.org_.
 
-### Potential Privency.tech use cases
+### Potential _Privency.tech_ use cases
 
 - social network and e-democracy
 - government organization
@@ -191,7 +191,7 @@ It is NOT featured in Privency.org.
 - solving user data privacy. There are already projects working towards this direction, namely [WNFS](https://guide.fission.codes/developers/webnative/file-system-wnfs) for local-first edge applications, and [zama.ai](https://www.zama.ai/), through its set of fully-homomorphic encryption tools. 
 - solving user metadata privacy. There are already projects working towards this direction, namely mixnets such as [Tor](https://www.torproject.org/) or [HOPR](https://hoprnet.org/).
 
-Privency.org may have data and metadata privacy features, but Privency.tech focuses solely on identity, authentication and authorization,
+_Privency.org_ may have data and metadata privacy features, but _Privency.tech_ focuses solely on identity, authentication and authorization,
 
 ### Business Model
 
@@ -209,9 +209,9 @@ We could configure a small fee that is sent to our account whenever someone call
 
 The fee could be turned off, but the very existence of this switch could convince investors of the potential income (Uniswap does exactly that).
 
-## Privency.org - the e-democracy social network
+## _Privency.org_ - the e-democracy social network
 
-Privency.org will be a social network based on Privency.tech - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enhancing e-democracy.
+_Privency.org_ will be a social network based on _Privency.tech_ - the auth toolbox. It is aimed to provide a safe place to discuss everything - an e-agora enhancing e-democracy.
 
 It will be the very fist social network of its kind, that allows for:
 - zkKYC all users: preserving their anonymity while verifying them
@@ -219,30 +219,30 @@ It will be the very fist social network of its kind, that allows for:
 - reliable and trustless e-voting and polling system
 - each human has unique characteristic represented by the verifiable credentials they hold. They can create an account for each designated social groups, and it is technically impossible to link the accounts together. Ex: there could be a discussion group for parents in France, and another for Indians immigrants in France. One human could have a "parent in France" account and an "Indian with legal residency in France" account. This way, the human can speak as a parent in the restricted group of parents with legal residence in France without revealing he is an Indian immigrant, and vice-versa.
 
-What about transparency? Privency.org already minimizes trust, for example by using content-addressing. Data isn't siloed in Privency.org server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
+What about transparency? _Privency.org_ already minimizes trust, for example by using content-addressing. Data isn't siloed in _Privency.org_ server - it's free to live its own life, thanks to IPFS. That also helps commnity to form around their data, that is transparently accessible to them.
 
 How to punish harassment?
 ==> like with existing social network: filtering out bad data, report and suspend/ban users, use natural language processing as much as possible to detect bad behavior. Because users are verified and can only have one account per discussion group, getting banned is bigger of a deal than with existing social medias. I presume it is enough to drastically diminish the amount of bad actors. No doxxing of government ID is enabled: private information never leaves the user's personal devices.
 
-Besides its intrinsic use-case, Privency.org will serve as a pilot customer for Privency.tech.
+Besides its intrinsic use-case, _Privency.org_ will serve as a pilot customer for _Privency.tech_.
 
 ### Business model
 
-Besides its intrinsic use-case, Privency.org represents a marketing product that, if successful, will popularize and showcase Privacy.tech capabilities, boosting Privency.tech revenue.
+Besides its intrinsic use-case, _Privency.org_ represents a marketing product that, if successful, will popularize and showcase Privacy.tech capabilities, boosting _Privency.tech_ revenue.
 
-Other than that, there are two possible routes to fund Privency.org.
+Other than that, there are two possible routes to fund _Privency.org_.
 
 #### Advertisement
 
-Like most social networks, Privency.org can rely on advertisements. Responsible and ethical advertisements are a good way to fund expensive, yet useful public goods. Like Netflix does, I would love to provide an option to turn off advertisement, in exchange for payment. The challenge here, is that payment would require Privency.org to KYC our users by law. zkKYC doesn't exist in the eye of the law - there is no alternative. We could use cryptocurrencies, but regulation on crypto payment is even stricter than for fiat payment. That is why there will be no option to turn off advertisements at launch.
+Like most social networks, _Privency.org_ can rely on advertisements. Responsible and ethical advertisements are a good way to fund expensive, yet useful public goods. Like Netflix does, I would love to provide an option to turn off advertisement, in exchange for payment. The challenge here, is that payment would require _Privency.org_ to KYC our users by law. zkKYC doesn't exist in the eye of the law - there is no alternative. We could use cryptocurrencies, but regulation on crypto payment is even stricter than for fiat payment. That is why there will be no option to turn off advertisements at launch.
 
 Because we have 0% bots, 100% real humans, and 100% verified attributes about these human, we can offer a unique solution to advertisers.
 
 On Twitter, ads target 90% bots, and a complicated algorithm is used to suggest products that have little to do with the real human behind the users. 
 
-For example, if you're an advertiser that have identified that your typical potential customers are Korean profesors under the age of 40, Privency.org can certify you that there are 500 000 distinct verified Korean profesors in the Korean profesors, and 30M people under the age of 40 in the different discussion groups of the platform, then help you target them with your advertisement.
+For example, if you're an advertiser that have identified that your typical potential customers are Korean profesors under the age of 40, _Privency.org_ can certify you that there are 500 000 distinct verified Korean profesors in the Korean profesors, and 30M people under the age of 40 in the different discussion groups of the platform, then help you target them with your advertisement.
 
-To make money, Privency.org will be incentivized to:
+To make money, _Privency.org_ will be incentivized to:
 - keep user's privacy 100% safe, otherwise users won't come
 - verify as many parameters about the users as possible in order to provide the most tailored service to advertisers
 
@@ -256,7 +256,7 @@ This business model would allow to make money without compromising on the core v
 
 #### Donation 
 
-Privency.org can rely on donation - a la Wikipedia. After all, this product is a public good, so it is easy to justify.
+_Privency.org_ can rely on donation - a la Wikipedia. After all, this product is a public good, so it is easy to justify.
 
 ## Resources
 
