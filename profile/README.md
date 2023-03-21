@@ -265,7 +265,7 @@ No doxxing of government ID is enabled: private information never leaves the use
 
 ### Non-goals
 
-_Privency.org_ is neither TikTok, Instagram nor Facebook. There is no social network of this kind today, but if we were to compare, we could say that _Privency.org_ is most akin to Twitter or even LinkedIn to some extent. It is aimed primarily for long-form deep conversations about serious topics.
+_Privency.org_ is neither TikTok, Instagram nor Facebook. There is no social network of this kind today, but if we were to compare, we could say that _Privency.org_ is most akin to Twitter or even LinkedIn to some extent. It is aimed primarily for long-form deep conversations about serious topics, potentially controversial and political.
 
 ### Business model
 
