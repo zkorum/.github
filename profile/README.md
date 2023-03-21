@@ -233,7 +233,13 @@ _Privency.org_ minimizes trust by using content-addressing. Data isn't siloed in
 
 ### What about data privacy? 
 
-In first versions of _Privency.org_, everyone will be able to read data from every groups (public read access). Only write access will be limited. However in the long-term, we can imagine to implement restricted read access, by using fully-homomorphic encryption. Whenever data leaves the user's device, it would be encrypted using FHE, allowing for _Privency.org_ 's server to provide search capabilities, without having access to the actual data. The reason why this feature is postponed is a/ it's isn't obvious that private-read-access group will be interesting for users, and b/ FHE comes with a series of technological challenges, as it is known for its performance issues. 
+In first versions of _Privency.org_, everyone will be able to read data from every groups (public read access). Only write access will be limited. However in the long-term, we can imagine to implement restricted read access, by using fully-homomorphic encryption (FHE).
+
+Whenever data leaves the user's device, it would be encrypted using FHE, allowing for _Privency.org_ 's server to provide search capabilities, without having access to the actual data. 
+
+The reason why this feature is postponed is: 
+- it's isn't obvious that private-read-access group will be interesting for users
+- FHE comes with a series of technological challenges, as it is known for its performance issues. 
 
 ### What about deleting data? 
 
