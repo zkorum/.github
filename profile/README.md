@@ -247,7 +247,7 @@ To make money, _Privency.org_ will be incentivized to:
 - verify as many parameters about the users as possible in order to provide the most tailored service to advertisers
 
 A little compromise is necessary:
-- the value for users, is that they can distinguish different aspect of them - they can speak in a group restricted to people under 40 years old, and in another group for Korean profesors, without that anyone can technically link the two identifiers.
+- the value for users relies being able to distinguish different aspect of them: they can speak in a group restricted to people under 40 years old, and in another group for Korean profesors, without that anyone can technically link the two identifiers together and know that in fact, it's the same person speaking.
 - but the value for advertisers is to link both information, in order to target their specific audience: Korean profesor under the age of 40.
 
 The challenge is therefore to find the right discussion groups, that will satisfy both users and advertisers.
