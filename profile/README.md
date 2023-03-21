@@ -33,7 +33,7 @@ This is also true on-chain, where proof of unique humanity could be used to reco
 We need a way to:
 1. prove unique personhood of each user in a privacy-preserving way
 1. keep users anonymous, while enabling them to prove properties about themselves (being over 18 to access a porn website, having a legal license to buy weapons...etc)
-1. in very specific cases (tbd), we need to reveal the user's identity only to specific agents (i.e: judges): every doxxing of identity should be monitored publicly, transparently and be strictly confined to a set of rules specified in advance.
+1. in very specific cases (tbd), we may want to reveal the user's identity only to specific agents (i.e: judges): every doxxing of identity should be monitored publicly, transparently and be strictly confined to a set of rules specified in advance.
 
 \#3 is very political and controversial: users legitimally want to protect themselves against a rogue government for example.
 The scientific literature has proven that there is no easy answer to that dilemma.
@@ -42,7 +42,7 @@ That is why we need an unopinionated software toolbox, that:
 - allows web developers to choose the set of rules they want their users to abide to
 - makes the web developers accountable for the set of rules they decided to choose. There is no turning back, and private access to user's identity must be technically impossible, every access occurence has to be public information, that can then be publicly monitored by users themselves.
 
-Privency aims to be exactly that solution.
+Privency.tech aims to be exactly that solution.
 
 ## How does Privency.tech solves this problem?
 
