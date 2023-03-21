@@ -205,7 +205,7 @@ _Privency.org_ will have data and metadata privacy features, but _Privency.tech_
 
 Like Keycloak, the authentication server could be either self-hosted or hosted in the cloud.
 
-We could provide services to companies looking for help and assurance to self-host their product.
+We could provide services to companies looking for help and assurance to self-host our product.
 
 We could host the authentication server on behalf of customers in our cloud.
 
