@@ -20,7 +20,7 @@ Deadline
 - else, the 1st of October 2023 (~6 months of work)
 
 Goals:
-- Convince potential users, collaborators and investors of Privency's vision & technical viability
+- Convince potential users, collaborators, investors and myself (!!!) of Privency's vision & technical viability
 
 Non-goals:
 - good software quality (successful or not, the PoC will be thrown away)
