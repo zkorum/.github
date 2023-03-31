@@ -225,6 +225,10 @@ It will be the very first social network of its kind, featuring:
 - reliable and trustless e-voting and polling system
 - each human has unique characteristics represented by the verifiable credentials they hold. They have a specific account (or "identifier") for each designated social groups, and by design it will be technically impossible to link the identifiers together. Ex: there could be a discussion group for parents in France, and another for Indians immigrants in France. One human could have a "parent in France" account and an "Indian with legal residency in France" account. This way, the human can speak as a parent in the restricted group of parents with legal residence in France without revealing he is an Indian immigrant, and vice-versa. That would allow for each parent voice to be heard independently of other unrelated aspects, that could otherwise trigger subconscious cognitive bias and result in discrimination. It would also allow for under-represented groups to speak up without endangering their personal interest.
 
+The exact features/design of the social network is yet to be determined.
+
+If we could simply make a copycat of twitter based on 1 account = 1 verified human and trustless polls/votes, that would be amazing.
+
 Besides its intrinsic use-case, _Privency.org_ will serve as a pilot customer for _Privency.tech_.
 
 ### What about transparency? 
@@ -258,6 +262,7 @@ Besides the anonymous identifiers, it will be possible to create a public identi
 ### What about the way people write? Can it be used to reveal their identity? 
 
 Yes, it can. To mitigate this, we can provide educational content and eventually leverage AI tools to provide the option for users to automatically "rewrite" their content in a random style before posting.
+
 ### How to punish bad actors? (harassment, etc...)
 
 Like existing social networks: 
@@ -285,7 +290,7 @@ Like most social networks, _Privency.org_ can rely on advertisements. Responsibl
 
 Because we have 0% bots, 100% real humans, and 100% verified attributes about these human, we can offer a unique solution to advertisers.
 
-On Twitter, ads target 90% bots, and a complicated algorithm is used to suggest products that have little to do with the real human behind the users. 
+We could use both classic AI-based AdTech combined with the information we get from having verified humans.
 
 For example, if you're an advertiser that have identified that your typical potential customers are Korean profesors under the age of 40, _Privency.org_ can certify you that there are 500 000 distinct verified Korean profesors, and 30M people under the age of 40 in the different discussion groups of _Privency.org_, then help you target them with your advertisement.
 
@@ -304,6 +309,20 @@ This business model would allow to make money without compromising on the core v
 #### Donation 
 
 _Privency.org_ can rely on donation - a la Wikipedia. After all, this product is a public good, so it is easy to justify.
+
+## Legal concerns
+
+I am uncertain at the moment of the legality of using government IDs combined with biometrics for general-purpose login - even through ZKP. 
+
+After a bit of research, it seems that it depends on the exact document/information and on the juridisction.
+
+This is something that should be validated and eventually challenged through lobbying and education, because from what I've read, most often than not, countries which ban the use of governement ID for login other than specific limited usage are doing so to protect the privacy of citizen's data. But zero-knowledge proof precisely protects privacy.
+
+For example:
+- https://www.senat.fr/lc/lc181/lc181_mono.html shows that it is illegal to use the Social Security Number in France for login outside of restricted services.
+- it is not clear whether using a hash of a SSN is illegal: having knowledge of the hash doesn't give you knowledge of the SSN - it is cryptographically impossible.
+- there are countries where it is legal 
+- [France Identité](https://france-identite.gouv.fr/) is actually based on zero-knowledge proof, so it is a good sign
 
 ## Resources
 
