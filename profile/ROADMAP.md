@@ -82,8 +82,8 @@ If #1 is validated, @nicobao needs to find solution for funding:
 
 Expensive things to fund:
 - zkML
-- battle-tested account abstraction for crypto wallets
-- production-grade equivalent of the authorization server/client created for the PoC
+- battle-tested account abstraction for crypto wallets 
+- production-grade equivalent of the auth server
 - production-grade equivalent of the PoC forum => Privency.org - the social network
 
 ## Objective #3: MVP
