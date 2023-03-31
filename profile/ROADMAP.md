@@ -31,6 +31,7 @@ Non-goals:
 How?:
 - create an open-source proof-of-concept featuring key aspects of the project, that is freely usable online
 - reach out to lawyers to understand whether the legal concerns can be addressed or not, in particular in France: the expected deliverables are documentation and blog posts summarizing the findings
+
 PoC features:
 - to showcase Privency capability, we want to make an app that only allow registering people over 18 that holds a French citizenship or a French residency card
 - each unique person can only create 1 account
