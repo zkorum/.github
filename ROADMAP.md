@@ -30,42 +30,46 @@ Non-goals:
 
 How?:
 - create an open-source proof-of-concept featuring key aspects of the project, that is freely usable online
-- reach out to lawyers to understand whether the legal concerns can be addressed or not, in particular in France
 
 PoC features:
-- to showcase Privency capability, we want to make an app that only allow registering people over 18 that holds a French citizenship or a French residency card
-- each unique person can only create 1 account
-- the app should not be able to know the personal info of the users - only that they pass the requirements
-- this app will be a basic forum with restricted write access for French citizens over 18
-- anyone can start a poll, and people can vote
-- this app will be the basis for the _Privency.org_ social network
+- a forum - PoC of Privency.org
+- 1 section corresponds to 1 organization (an Issuer) 
+- each section has restricted write access and public read access 
+- only people holding a VC from the specific Issuer can post/open poll/vote in the corresponding section
+- 1 VC from the Issuer of the section = one unique person from this organization. The unicity is the sole responsibility of the Issuer, though we can provide tools to make this easier.
+- the app should not be able to know the personal info of the users that may be included in the VC - only that they pass the requirements
 
 Assumptions and limitations:
-- we will use zkML to:
-	- scan the French national ID or the passport locally and generate a Verifiable Credential. Only 1 document will be supported for now. Which one? TBD
-	- confirm via video that the user is who he says he is
-- for simplification, we assume both users and issuers use did:key as did:method
-- there will be limitations and workarounds whenever we can. Which one? TBD
+- for simplification, we assume both holders and issuers use did:key as did:method
 
-Auth for web app:
-- use DID, WNFS, IPFS, UCAN
-- some anonymous ID should probably be generated from the zkML algorithm, that will be used as unique identifier
-- how exactly? TBD
-- the goal is to try to extract an equivalent of an oauth2 auth server but UCAN-based => this server will be the basis for the _Privency.tech_ offering
+Tool for Issuer
+- tool to issue VCs to Holders: TBD
+- Issuers must keep track of revoked/lost VC
+
+Auth:
+- DID + holding the right VC
+- both VC and the DID themselves must not be revealed - use zkp and hashes
+- tool to renew lost account?
 
 Ethereum account abstraction:
 - we need blockchain for trustless voting
 - an unlimited amount of Eth accounts can be claimed representing the same human through the same process as described above for the auth server. We need to be able to link the Ethereum accounts with the web server account. They all should be associated with the same unique anonymous ID.
 
+Privacy:
+- the DID itself is not revealed, otherwise it would allow issuers to know who wrote what
+- the verifiable credential always remain private on the user's device. We use selective disclosure.
+- we anonymize data using hashes and other cryptographic techniques
+- we may showcase anonymizing speech (rewrite post in a randomly generated style) via a ChatGPT API integration
+- no default metadata privacy: we will not embed a mixnet for the sake of this PoC
+
 Transparency:
-- no doxxing of government ID is allowed, the verifiable credential remain private on the user's device
-- we use IPFS, WNFS, UCAN, content-addressing, so we're freeing data from server's silo and minimizing trust
-- we use [Snapshot](https://docs.snapshot.org/) for voting, probably using [Ethereum Attestation Service](https://attest.sh/) ==> among the votes from the Ethereum accounts associated with the same user, only the last vote will count. We will use Gnosis Chain.
+- we use IPFS, content-addressing, so we're freeing data from server's silo and minimizing trust
+- we use [Snapshot](https://docs.snapshot.org/) for gasless voting, probably using [Ethereum Attestation Service](https://attest.sh/) ==> among the votes from the Ethereum accounts associated with the same user, only the last vote will count. We will use Gnosis Chain.
 
 Deliverables:
 - Launch the PoC at https://poc.privency.org and https://poc.privency.tech
 - Have insights about the legal viability from reputable sources in the blog posts and documentation
-- MPLv2-licensed (in tribute to [Pieter Hintjens](http://hintjens.com/)) source code of the poc at https://github.com/privency/poc
+- (A)GPLv3-licensed source code of the poc at https://github.com/privency/poc
 
 ## Objective #2: find funding
 
@@ -83,7 +87,7 @@ If #1 is validated, @nicobao needs to find solution for funding:
 Expensive things to fund:
 - zkML
 - battle-tested account abstraction for crypto wallets 
-- production-grade equivalent of the auth server
+- production-grade equivalent of the off-chain tooling
 - production-grade equivalent of the PoC forum => Privency.org - the social network
 
 ## Objective #3: MVP

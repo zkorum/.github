@@ -121,21 +121,21 @@ Some related articles/libraries:
 
 #### Note on other ID documents
 
-The 1st focus is on proving unique personhood - and then age and nationality.
-
-However, we could imagine a zkKYC process that prove other information about the users: 
+We can imagine a zkKYC process that prove other information about the users: 
 - having a license to buy weapons
 - having a medical license
 - having a membership to a private club
 - ...etc
 
+In fact, for private club membership, zkML won't be necessary. We can just rely on the Issuer-Verifier-Holder pattern, providing tools for the Issuer to easily generate the Verifiable Credentials.
+
+Convincing government agencies to issue Verifiable Credentials is a different story. And zkML is extremely complex. That is why private organizations will be the #1 focus of Privency.
+
 ### An authorization/authentication server and client for web applications
 
-_Privency.tech_ provides an authorization/authentication server and client for web applications
+_Privency.tech_ provides an authorization/authentication server and client for web applications based on the Issuer-Holder-Verifier pattern.
 
 We could use the standard [OpenID for Verifiable Credentials](https://oauth.net/openid-for-verifiable-credentials/#:~:text=OpenID%20for%20Verifiable%20Credentials%20is,claims%20to%20a%20relying%20party.) 
-
-I am not entirely sure how it will work out though.
 
 If we go this route, we would benefit from adding support for it in [Ory](https://github.com/ory/hydra), which is a mature, well-thought and fully open-source suite of tools for auth.
 
@@ -144,9 +144,9 @@ I'd like to rely on [capability-based authorization](https://srl.cs.jhu.edu/pubs
 
 In this regards, using [UCAN](https://ucan.xyz/) could be a more interesting option.
 
-We would make SDKs, an admin frontend, and a backend, exactly like existing solution do (think Keycloak, Firebase, Ory, Auth0...etc).
+There will be tools to help Issuers deliver Verifiable Credentials securely.
 
-In the admin frontend, the web app dev would configure which kind of conditions they want their users to abide to.
+At this point, it is unclear how it would look like.
 
 ### A smart-contract for blockchain account abstraction
 
@@ -202,8 +202,6 @@ _Privency.org_ will have data and metadata privacy features, but _Privency.tech_
 ### Business Model
 
 #### off-chain solution: SaaS and consulting
-
-Like Keycloak, the authentication server could be either self-hosted or hosted in the cloud.
 
 We could provide services to companies looking for help and assurance to self-host our product.
 
@@ -312,17 +310,30 @@ _Privency.org_ can rely on donation - a la Wikipedia. After all, this product is
 
 ## Legal concerns
 
-I am uncertain at the moment of the legality of using government IDs combined with biometrics for general-purpose login - even through ZKP. 
+I am uncertain at the moment of the legality of using government IDs for general-purpose login - even through ZKP. 
 
 After a bit of research, it seems that it depends on the exact document/information and on the juridisction.
 
-This is something that should be validated and eventually challenged through lobbying and education, because from what I've read, most often than not, countries which ban the use of governement ID for login other than specific limited usage are doing so to protect the privacy of citizen's data. But zero-knowledge proof precisely protects privacy.
-
 For example:
 - https://www.senat.fr/lc/lc181/lc181_mono.html shows that it is illegal to use the Social Security Number in France for login outside of restricted services.
-- it is not clear whether using a hash of a SSN is illegal: having knowledge of the hash doesn't give you knowledge of the SSN - it is cryptographically impossible.
-- there are countries where it is legal 
-- [France Identité](https://france-identite.gouv.fr/) is actually based on zero-knowledge proof, so it is a good sign
+- even using a hash of the SSN is illegal outside of restricted services, even though having knowledge of the hash doesn't give you knowledge of the SSN. The hash is used to anonymise the SSN for health data statistics purpose (see http://www.jms-insee.fr/2022/S11_3_ACTE_GADOUCHE-MARQUIER_JMS2022.pdf and http://www.jms-insee.fr/2015/S09_4_ACTE_GUESDON_JMS2015.PDF )
+- there are countries where it is legal (Spain), though it is almost always restricted to specific services
+
+On the positive side:
+- [France Identité](https://france-identite.gouv.fr/) seems to be based on zero-knowledge proof
+- both the [European Union](https://ec.europa.eu/digital-building-blocks/wikis/display/EBSIDOC/%5Barchived%5DTechnical+Specification+(7)+-+Obtaining+VC+using+eIDAS-AuthN) and [the USA](https://transmute.industries/) are pushing towards DID/VC
+
+## First version of the product
+
+Due to governments organizations not issuing Verifiable Credentials, the legal uncertainty and the complexity of zkML, _Privency.org_ will initially focus on private organizations looking for a place for their verified members to communicate safely and anonymously.
+
+It opens up the list of target to a very wide range:
+- schools
+- companies
+- political parties
+- private clubs
+- DAOs
+- ...any arbitrary organization
 
 ## Resources
 
