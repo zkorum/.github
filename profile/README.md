@@ -27,7 +27,7 @@ Another aspect that Privency addresses is the technical trilemma between privacy
 - Scenario 2 Privacy + Trust-minimized infrastructure: without proving the eligibility of respondents, results are subject to spams and noises and become unusable. Example: Snapshot votes open to any Ethereum address.
 - Scenario 3 Proof of eligibility + Trust-minimized infrastructure: Respondents need to deliver more personal information than necessary to prove eligibility. Example: Snapshot votes open to specific KYCed Ethereum addresses.
 
-Privency tackles this trilemma by combining recent breakthroughs in decentralized identity and trust-minimized infrastructure, reclaiming the original role of the web as a neutral freedom-enabling technology where we can do more than in real life.
+Privency tackles this trilemma by combining recent breakthroughs in decentralized identity and trust-minimized infrastructure, reclaiming the original role of the web as a neutral freedom-enabling technology where we can do _more_ than in real life.
 
 ## Detailed solution
 
