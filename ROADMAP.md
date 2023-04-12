@@ -28,7 +28,7 @@ Non-goals:
 The PoC consists of independent open-source projects to showcase:
 - the flow from the issuing of a VC to the authorization of REST endpoints based on AnonCreds
 - the Snapshot voting strategy that replaces tokens with AnonCreds 
-- a speech anonymizer that computes encrypted data ==> Large Language Model (OpenChatKit) and Fully Homomorphic Encryption (Concrete ML): privacy-preserving anonymization of users’ speech ==> this might be hard
+- a text anonymizer that computes encrypted data ==> paraphrasing and removing names etc. + Fully Homomorphic Encryption ==> this might be hard, we'll see how it goes
 
 The projects can be run on local computer and on testnets if applicable.
 
