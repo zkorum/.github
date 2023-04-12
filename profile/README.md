@@ -2,7 +2,7 @@
 
 There is an ever growing need to promote diversity, equity, and inclusion (DEI) in our societies. However, it is difficult for people to share what they truly experience or think when subject to the fear of judgment. Anonymous surveys today either do not verify if a respondent is eligible to participate or they do so at the expense of the respondent's privacy. The lack of privacy could lead to self-censorship, while the lack of transparency in how data is processed and manipulated could lead to censorship.
 
-Privency, a contraction of “PRIVacy” and “transparENCY,” proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
+_Privency_, a contraction of “PRIVacy” and “transparENCY,” proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
 - Bottom-up approach: instead of leadership conducting top-down surveys, anyone holding a private eligible credential can start one.
 - Self-sovereign identity open standards: Verifiable Credentials
 - Large Language Model (OpenChatKit) and Fully Homomorphic Encryption (Concrete ML): privacy-preserving anonymization of users’ speech
