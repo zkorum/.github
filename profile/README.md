@@ -10,7 +10,7 @@ _Privency_, a contraction of “PRIVacy” and “transparENCY,” proposes a su
 
 With Privency, people can freely express their opinions and initiate their own discussions and votes without worrying about revealing their identities, _even to Privency_. Anyone can verify the authenticity of information without the need to trust. Leadership can acquire honest insights about their communities and publish results that guarantee authenticity. 
 
-Privency aims to reclaim the original role of the web as a freedom-enabling technology where we can do more than in real life. In the short term, Privency targets corporate clients and educational institutions which seek to promote DEI within their communities. In the long run, Privency aspires to work with governments to become a trustless gateway to eDemocracy that revolutionizes public survey, polling, and voting.
+In the short term, Privency targets corporate clients and educational institutions which seek to promote DEI within their communities. In the long run, Privency aspires to work with governments to become a trustless gateway to eDemocracy that revolutionizes public survey, polling, and voting.
 
 Privency is an [Open Startup](https://cal.com/blog/open-startup) at the ideation stage, that is actively built in public by @nicobao.
 
