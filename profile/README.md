@@ -2,17 +2,17 @@
 
 There is an ever growing need to promote diversity, equity, and inclusion (DEI) in our societies. However, it is difficult for people to share what they truly experience or think when subject to the fear of judgment. Anonymous surveys today either do not verify if a respondent is eligible to participate or they do so at the expense of the respondent's privacy. The lack of privacy could lead to self-censorship, while the lack of transparency in how data is processed and manipulated could lead to censorship.
 
-_Privency_, a contraction of “PRIVacy” and “transparENCY,” proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
+Privency, a contraction of “PRIVacy” and “transparENCY,” proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
 - Bottom-up approach: instead of leadership conducting top-down surveys, anyone holding a private eligible credential can start one.
 - Self-sovereign identity open standards: Verifiable Credentials
 - Large Language Model (OpenChatKit) and Fully Homomorphic Encryption (Concrete ML): privacy-preserving anonymization of users’ speech
 - Snapshot: gasless and trustless voting using IPFS and Ethereum
 
-With _Privency_, people can freely express their opinions and initiate their own discussions and votes without worrying about revealing their identities, even to _Privency_. Anyone can verify the authenticity of information without the need to trust. Leadership can acquire honest insights about their communities and publish results that guarantee authenticity. 
+With Privency, people can freely express their opinions and initiate their own discussions and votes without worrying about revealing their identities, _even to Privency_. Anyone can verify the authenticity of information without the need to trust. Leadership can acquire honest insights about their communities and publish results that guarantee authenticity. 
 
-_Privency_ aims to reclaim the original role of the web as a freedom-enabling technology where we can do more than in real life. In the short term, _Privency_ targets corporate clients and educational institutions which seek to promote DEI within their communities. In the long run, _Privency_ aspires to work with governments to become a trustless gateway to eDemocracy that revolutionizes public survey, polling, and voting.
+Privency aims to reclaim the original role of the web as a freedom-enabling technology where we can do more than in real life. In the short term, Privency targets corporate clients and educational institutions which seek to promote DEI within their communities. In the long run, Privency aspires to work with governments to become a trustless gateway to eDemocracy that revolutionizes public survey, polling, and voting.
 
-_Privency_ is an [Open Startup](https://cal.com/blog/open-startup) at the ideation stage, that is actively built in public by @nicobao.
+Privency is an [Open Startup](https://cal.com/blog/open-startup) at the ideation stage, that is actively built in public by @nicobao.
 
 The [Roadmap](./ROADMAP.md) as well as this document are continuously updated.
 
