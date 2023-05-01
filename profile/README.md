@@ -4,8 +4,8 @@ There is an ever growing need to promote diversity, equity, and inclusion (DEI) 
 
 _Privency_, a contraction of “PRIVacy” and “transparENCY,” proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
 - Bottom-up approach: instead of leadership conducting top-down surveys, anyone holding a private eligible credential can start one.
-- Self-sovereign identity open standards: Verifiable Credentials
-- Snapshot: gasless and trustless voting using IPFS and Ethereum
+- Privacy-preserving self-sovereign identity open standards: Hyperledger Aries, AnonCreds
+- The votes inherits from the censorship-resistance property of IPFS, a content-addressed peer-to-peer network.
 
 With Privency, people can freely express their opinions and initiate their own discussions and votes without worrying about revealing their identities, _even to Privency_. Anyone can verify the authenticity of information without the need to trust. Leadership can acquire honest insights about their communities and publish results that guarantee authenticity. 
 

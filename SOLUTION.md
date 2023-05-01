@@ -13,10 +13,34 @@ The unicity of voters is ensured by enforcing the presentation of a survey-speci
 To propose a survey, Holders are required to present a hash calculated from their unique AnonCred `link_secret` using a method that can generate up to 10 different hashes per Holder. Using this technique, bad actors who try to abuse Privency by publishing hateful surveys or engaging in DDoS attacks can be suspended or banned. That means Holders have at most 10 unique pseudonymous identities that they can use to propose surveys. This number is not definitive. It boils down to a trade-off between ensuring the service resistance to cyber-attacks and maximizing users' privacy.
 To ensure that voters don’t inadvertently reveal their identity via their comments, Privency automatically anonymizes both the content and style of their speech on the client-side before sending the comment. 
 
+The exact mechanism is described in more details [here (work-in-progress)](https://github.com/privency/poc/blob/main/anoncreds/README.md#how-does-it-work).
+
 ## How does Privency solves the technical trilemma?
 
-The usage of the decentralized identity primitives described above provides both privacy and proof of eligibility to our surveys. But how do we make sure that anyone can independently verify the authenticity of data and processing? Privency relies on Snapshot to achieve this challenge. 
+The usage of the decentralized identity primitives described above provides both privacy and proof of eligibility to our surveys. But how do we make sure that anyone can independently verify the authenticity of data and processing? 
 
-Snapshot is an off-chain voting platform where the data associated with every vote is publicly pinned on IPFS. IPFS is a content-addressed peer-to-peer network, meaning that it is censorship-resistant: it only takes one person to pin data for it to be available. Data is verifiable because it is content addressed. Privency runs its own snapshot-hub and IPFS node to quickly provide a proof to the voter on the frontend that their data has been correctly pinned. Privency only publishes hashed data to Snapshot. When users fetch data of a survey on Privency frontend, they can locally verify that it corresponds exactly to the hashes pinned on IPFS and replay the result themselves.
+Privency extensively uses IPLD to address voting data:
+- 1 vote proposal = 1 CID representing the content (name of the question => 1 child CID, list of choices => N children CIDs, etc).
+- the list of vote proposal CID is publicly pinned to IPFS by Privency
+- the exact content of the vote proposal (values behind the CID of the name of the question and choices) is not pinned to IPFS
+- the list of anonymyzed valid votes for each proposal is constantly pinned to IPFS by Privency (the only thing to anonymize are comments which are hashed to CIDs) 
+- the raw comments are not pinned to IPFS by Privency
 
-Traditionally, Snapshot votes are based on the number and nature of tokens in an Ethereum account. Privency innovates by counting Snapshot votes based on AnonCreds included in the Ethereum signatures instead of tokens.
+Privency provides a libp2p node that anyone can run:
+- you configure which vote proposal CID you're interested in
+- it will listen to the corresponding libp2p topic
+- anyone can publish valid vote in this topic directly instead of going through the interface. 
+- Privency runs a node that listen to all the vote proposal topics 
+- each time Privency receives a new valid vote, it updates its local database
+- the local database containing each valid votes for each proposals is regularly pinned to IPFS (in anonymized form, see above)
+- a valid vote is a vote signed by a DID that hold the eligible credentials. It is verified in a privacy-preserving way via Hyperledger AnonCreds
+- optionally, the signed vote can contain a timestamp signed by Privency Public DID. It helps for analyzing vote results.
+
+Casting a vote go through the following steps:
+- the user receives a timestamp signed by Privency Public DID
+- the user selects a survey, casts its vote and comment, and put it all in an enveloppe 
+- the user signs the enveloppe and generates its eligibility credentials in the form of an Hyperledger AnonCred via its local wallet
+- the user sends it to Privency backend
+- Privency backend verifies that everything is correct
+- Privency stores the vote on its own DB
+- Privency pins the anonymyzed version of the vote on the libp2p Privency node
