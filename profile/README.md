@@ -1,13 +1,13 @@
-# Privency - The Next Generation Survey Tool
+# ZKorum - The Next Generation Survey Tool
 
 There is an ever growing need to promote diversity, equity, and inclusion (DEI) in our societies. However, it is difficult for people to share what they truly experience or think when subject to the fear of judgment. Anonymous surveys today either do not verify if a respondent is eligible to participate or they do so at the expense of the respondent's privacy. The lack of privacy could lead to self-censorship, while the lack of transparency in how data is processed and manipulated could lead to censorship.
 
-_Privency_, a contraction of “PRIVacy” and “transparENCY,” proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
+_ZKorum_, proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
 - Bottom-up approach: instead of leadership conducting top-down surveys, anyone holding a private eligible credential can start one.
-- Privacy-preserving self-sovereign identity open standards: Hyperledger Aries, AnonCreds
+- Privacy-preserving self-sovereign identity open standards: Verifiable Credentials
 - The votes inherits from the censorship-resistance property of IPFS, a content-addressed peer-to-peer network.
 
-With Privency, people can freely express their opinions and initiate their own discussions and votes without worrying about revealing their identities, _even to Privency_. Anyone can verify the authenticity of information without the need to trust. Leadership can acquire honest insights about their communities and publish results that guarantee authenticity. 
+With ZKorum, people can freely express their opinions and initiate their own discussions and votes without worrying about revealing their identities, _even to Privency_. Anyone can verify the authenticity of information without the need to trust. Leadership can acquire honest insights about their communities and publish results that guarantee authenticity. 
 
 In the short term, Privency targets corporate clients and educational institutions which seek to promote DEI within their communities. In the long run, Privency aspires to work with governments to become a trustless gateway to eDemocracy that revolutionizes public survey, polling, and voting.
 
