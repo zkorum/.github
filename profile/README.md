@@ -1,4 +1,4 @@
-# ZKorum - The Next Generation Survey Tool
+# ZKorum - Democratize Democracy
 
 There is an ever growing need to promote diversity, equity, and inclusion (DEI) in our societies. However, it is difficult for people to share what they truly experience or think when subject to the fear of judgment. Anonymous surveys today either do not verify if a respondent is eligible to participate or they do so at the expense of the respondent's privacy. The lack of privacy could lead to self-censorship, while the lack of transparency in how data is processed and manipulated could lead to censorship.
 

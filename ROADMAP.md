@@ -30,12 +30,11 @@ Non-goals:
 
 The PoC consists of independent open-source projects to showcase:
 
-- the flow from the issuing of a VC to the authorization of REST endpoints based on AnonCreds
-- the Snapshot voting strategy that replaces tokens with AnonCreds
-- a text anonymizer that computes encrypted data ==> paraphrasing and removing names etc. + Fully Homomorphic Encryption ==> this might be hard, we'll see how it goes
+- VC-based voting ==> technical feasibility is 99% approved, actual implementation is 50% there
+- a text anonymizer that can run on frontend (or that can run on encrypted data) ==> not started yet
 
-The projects can be run on local computer and on testnets if applicable.
+### Result
 
 ## Objective #2: MVP
 
-TBD
+Product Design was recently prototyped on Figma. More to come here soon.
