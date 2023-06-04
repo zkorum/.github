@@ -12,7 +12,7 @@ With ZKorum, people can freely express their opinions and initiate their own dis
 
 In the short term, ZKorum targets corporate clients and educational institutions which seek to promote DEI within their communities. In the long run, Privency aspires to work with governments to become a trustless gateway to eDemocracy that revolutionizes public survey, polling, and voting.
 
-ZKorum is an [Open Startup](https://cal.com/blog/open-startup) at the ideation stage, that is actively built in public by @nicobao.
+ZKorum is at the proof-of-concept stage, that is actively built in public by @nicobao. The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) has been recently validated. The product design of our MVP has been initiated. Focus is now on finishing the necessary [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19), continuing improving the product design, and starting working on the MVP.
 
 The [Roadmap](./ROADMAP.md) as well as this document are continuously updated.
 
