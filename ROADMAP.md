@@ -41,4 +41,4 @@ Deadline:
 
 - autumn 2023
 
-Product under active development at github.com/zkorum/zkorum
+Product under active development at https://github.com/zkorum/zkorum
