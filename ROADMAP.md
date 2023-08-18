@@ -30,11 +30,15 @@ Non-goals:
 
 The PoC consists of independent open-source projects to showcase:
 
-- VC-based voting ==> technical feasibility is 99% approved, actual implementation is 50% there
-- a text anonymizer that can run on frontend (or that can run on encrypted data) ==> not started yet
-
 ### Result
+
+- VC-based voting ==> technical feasibility is approved, see https://github.com/zkorum/poc
+- a text anonymizer that can run on frontend (or that can run on encrypted data) ==> not started yet
 
 ## Objective #2: MVP
 
-Product Design was recently prototyped on Figma. More to come here soon.
+Deadline:
+
+- autumn 2023
+
+Product under active development at github.com/zkorum/zkorum
