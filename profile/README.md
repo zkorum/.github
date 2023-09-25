@@ -10,7 +10,7 @@ Built on the principles of data minimization, ZKorum leverages recent advancemen
 
 Fully open source, the project aims to be compatible with European Digital Identity. Currently incubated at ESSEC Ventures, ZKorum will release its MVP in December 2023 to the entire ESSEC community including 5000 students. In the long run, ZKorum aspires to collaborate with governments to become a trustless gateway to eDemocracy.
 
-ZKorum is currently at the development stage, actively built in public by @nicobao. The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
+ZKorum is currently actively [built in public](https://github.com/zkorum/zkorum) The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
 
 The [Roadmap](https://github.com/zkorum/.github/blob/main/ROADMAP.md) as well as this document are continuously updated.
 
