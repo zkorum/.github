@@ -18,4 +18,4 @@ The [Roadmap](https://github.com/zkorum/.github/blob/main/ROADMAP.md) as well as
 
 The product of ZKorum is an online forum where communities and verified members can create and participate in anonymous polls, surveys, discussions, and votes. On reaching the ZKorum Progressive Web App (PWA), anyone can browse the existing public surveys and their results. For example, a public poll asking European residents from 18 to 60 years old if they will choose an Electric Vehicle over a gas one. By default, surveys are publicly visible. Participating in surveys is restricted to users who can prove they hold the right credentials (eligibility). Eligibility is verified in a privacy-preserving way using zero-knowledge proof (ZKP) of users’ Anonymous Credentials (Dock’s BBS+ W3C Verifiable Credentials).
 
-See [Solution](./SOLUTION.md)
+See [Solution](https://github.com/zkorum/.github/blob/main/SOLUTION.md)
