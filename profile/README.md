@@ -12,7 +12,7 @@ Fully open source, the project aims to be compatible with European Digital Ident
 
 ZKorum is currently at the development stage, actively built in public by @nicobao. The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
 
-The [Roadmap](./ROADMAP.md) as well as this document are continuously updated.
+The [Roadmap](https://github.com/zkorum/.github/blob/main/ROADMAP.md) as well as this document are continuously updated.
 
 ## Detailed solution
 
