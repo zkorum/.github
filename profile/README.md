@@ -1,35 +1,21 @@
 # ZKorum - Democratize Democracy
 
-There is an ever growing need to promote diversity, equity, and inclusion (DEI) in our societies. However, it is difficult for people to share what they truly experience or think when subject to the fear of judgment. Anonymous surveys today either do not verify if a respondent is eligible to participate or they do so at the expense of the respondent's privacy. The lack of privacy could lead to self-censorship, while the lack of transparency in how data is processed and manipulated could lead to censorship.
+When addressing sensitive subjects like racism, sexism, religions, and politics, most individuals resort to self-censorship to avoid conflicts and animosities, becoming what’s known as the *Silent Majority*. Surveys reveal that only 18% of Germans believe that it’s possible to express themselves freely in public. 71% of French people engage in self-censorship in the workspace. How can we bridge the gap between the Silent Majority and an open society that values and respects the voices of all its members?
 
-_ZKorum_, proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard by bringing together the following key innovations in a powerful combination:
+The root of these problems boils down to the *fear of judgment* and the *necessity of anonymity* for freedom of expression. Currently, there isn't any trustless social network that can simultaneously guarantee both user anonymity and data verifiability. Users are forced to either depend on third parties to verify their identities, thereby risking the loss of control over their privacy, or they remain unverifiable, resulting in a web infested with extreme opinions, hate speech, and bots.
 
-- Bottom-up approach: instead of leadership conducting top-down surveys, anyone holding a private eligible credential can start one.
-- Privacy-preserving self-sovereign identity open standards: Verifiable Credentials
-- The votes inherits from the censorship-resistance property of IPFS, a content-addressed peer-to-peer network.
+*ZKorum* aims to give a voice to the silenced populations, especially those who are vulnerable or marginalized, by building a privacy-preserving social network where verified individuals and communities create anonymous polls, voting, and discussions. The solution can serve as a public e-Agora and as an anonymous community forum for verified organizations including companies, universities, and NGOs.
 
-With ZKorum, people can freely express their opinions and initiate their own discussions and votes without worrying about revealing their identities, _even to ZKorum_. Anyone can verify the authenticity of information without the need to trust. Leadership can acquire honest insights about their communities and publish results that guarantee authenticity.
+Built on the principles of data minimization, ZKorum leverages recent advancements in natural language processing, censorship-resistant infrastructure, and applied cryptography within the context of BBS+ W3C Verifiable Credentials.
 
-In the short term, ZKorum targets corporate clients and educational institutions which seek to promote DEI within their communities. In the long run, Privency aspires to work with governments to become a trustless gateway to eDemocracy that revolutionizes public survey, polling, and voting.
+Fully open source, the project aims to be compatible with European Digital Identity. Currently incubated at ESSEC Ventures, ZKorum will release its MVP in December 2023 to the entire ESSEC community including 5000 students. In the long run, ZKorum aspires to collaborate with governments to become a trustless gateway to eDemocracy.
 
-ZKorum is at the proof-of-concept stage, that is actively built in public by @nicobao. The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) has been recently validated. The product design of our MVP has been initiated. Focus is now on finishing the necessary [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19), continuing improving the product design, and starting working on the MVP.
+ZKorum is currently at the development stage, actively built in public by @nicobao. The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
 
 The [Roadmap](./ROADMAP.md) as well as this document are continuously updated.
 
-## What problems are we solving?
-
-ZKorum proposes a survey solution that empowers all people, especially those who are vulnerable and underrepresented, to speak up and be heard.
-
-The first aspect of ZKorum’s solution is a bottom-up approach to opinion surveys. For example, to gather insights about workspace experience, most companies conduct top-down DEI surveys by giving employees questionnaires. Privency proposes a democratic approach, which allows employees to anonymously initiate their own surveys, votes, and discussions.
-
-Another aspect that ZKorum addresses is the technical trilemma between privacy, proof of eligibility and trust-minimized infrastructure. Here are the three possible scenarios:
-
-- Scenario 1 Privacy + Proof of eligibility: A third party is introduced to verify the respondent’s eligibility. Survey results cannot be independently cryptographically verified. Respondents have no other choice but to trust the third-party in handling their data. Example: IFOP, the largest French polling and market research firm.
-- Scenario 2 Privacy + Trust-minimized infrastructure: without proving the eligibility of respondents, results are subject to spams and noises and become unusable. Example: Snapshot votes open to any Ethereum address.
-- Scenario 3 Proof of eligibility + Trust-minimized infrastructure: Respondents need to deliver more personal information than necessary to prove eligibility. Example: Snapshot votes open to specific KYCed Ethereum addresses.
-
-ZKorum tackles this trilemma by combining recent breakthroughs in decentralized identity and trust-minimized infrastructure, reclaiming the original role of the web as a neutral freedom-enabling technology where we can do _more_ than in real life.
-
 ## Detailed solution
+
+The product of ZKorum is an online forum where communities and verified members can create and participate in anonymous polls, surveys, discussions, and votes. On reaching the ZKorum Progressive Web App (PWA), anyone can browse the existing public surveys and their results. For example, a public poll asking European residents from 18 to 60 years old if they will choose an Electric Vehicle over a gas one. By default, surveys are publicly visible. Participating in surveys is restricted to users who can prove they hold the right credentials (eligibility). Eligibility is verified in a privacy-preserving way using zero-knowledge proof (ZKP) of users’ Anonymous Credentials (Dock’s BBS+ W3C Verifiable Credentials).
 
 See [Solution](./SOLUTION.md)
