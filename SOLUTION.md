@@ -14,7 +14,13 @@ Our innovative posting/polling/voting protocol is based on the following feature
 
 On reception of the Verifiable Presentation, ZKorum verifies the integrity of the data, then forwards the hashed packet to a Time Stamp Authority Server (RFC 3161), and finally broadcasts the timestamped Verifiable Presentation on a channel of a custom libp2p node created specifically for this purpose. The frontend embeds this libp2p node and users would see their own message being broadcast, which serves as a confirmation that the message has been sent. If they don’t see this confirmation, either there is a bug or something wrong is happening. Since data is verifiable and broadcast in this public peer-to-peer network, anyone can run the ZKorum node and keep track of data. They can then visit ZKorum website, and audit whether ZKorum is compliant with its moderation policy. Thus, we build censorship-resistance.
 
-### Current chain of thought (not up to date)
+## Data privacy
+
+The email-based communities feature of ZKorum generates data through a web form. For instance, in the case of a university student, this data includes attributes such as student status, enrolled or past classes, nationality, gender, age group, and year of study. The user's profile, linked to their email address, closely resembles a conventional social network profile, allowing users to share personal information with their community and the social network's server. ZKorum strictly adheres to GDPR regulations, granting users the ability to delete their data and accounts at any time while implementing robust security measures to safeguard this information.
+
+ZKorum introduces innovation by cryptographically dissociating user accounts from the posts they create, as previously explained. Given that posts inherently maintain anonymity, this data is less sensitive compared to the user's profile information. In a further commitment to user privacy, ZKorum exclusively incorporates the hash of the post payload in the Verifiable Presentation. This approach eliminates concerns about post deletion after broadcasting to the peer-to-peer network since only ZKorum's server possesses the corresponding preimage. Moreover, ZKorum actively manages deletion requests from the anonymous pseudonyms responsible for the posts.
+
+## Current chain of thought (not up to date)
 
 ZKorum extensively uses IPLD to address voting data:
 
