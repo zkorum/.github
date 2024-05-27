@@ -1,14 +1,22 @@
 # ZKorum - Democratize Democracy
 
-When addressing sensitive subjects like racism, sexism, religions, and politics, most individuals resort to self-censorship to avoid conflicts and animosities, becoming what’s known as the *Silent Majority*. Surveys reveal that only 18% of Germans believe that it’s possible to express themselves freely in public. 71% of French people engage in self-censorship in the workspace. How can we bridge the gap between the Silent Majority and an open society that values and respects the voices of all its members?
+In liberal democracies worldwide, we are witnessing an alarming trend of polarization. The public space for open dialogues is diminishing, both online and offline.
 
-The root of these problems boils down to the *fear of judgment* and the *necessity of anonymity* for freedom of expression. Currently, there isn't any trustless social network that can simultaneously guarantee both user anonymity and data verifiability. Users are forced to either depend on third parties to verify their identities, thereby risking the loss of control over their privacy, or they remain unverifiable, resulting in a web infested with extreme opinions, hate speech, and bots.
+Disinformation, hate speech, and bots, have transformed social media into a toxic place, where differing opinions are met with hostility rather than dialogues. [Pew Research Center](https://www.pewresearch.org/short-reads/2021/05/04/70-of-u-s-social-media-users-never-or-rarely-post-or-share-about-political-social-issues/) reveals that while social media plays a crucial role in shaping public opinions, 70% of users avoid posting about politics due to the fear of backlash. Vulnerable populations, including women and minorities, are significantly more likely to be harassed and pressured to self-censor. Their voices are routinely missing from the civic sphere.
 
-*ZKorum* aims to give a voice to the silenced populations, especially those who are vulnerable or marginalized, by building a privacy-preserving social network where verified individuals and communities create anonymous polls, voting, and discussions. The solution can serve as a public e-Agora and as an anonymous community forum for verified organizations including companies, universities, and NGOs.
+We develop open-source protocols and social apps to rehumanize and depolarize the current social landscape.
 
-Built on the principles of data minimization, ZKorum leverages recent advancements in natural language processing, censorship-resistant infrastructure, and applied cryptography within the context of BBS+ W3C Verifiable Credentials.
+We believe that social media should be a safe and open space where all of us are free to express ourselves, civil and respectful with others, confident in the source of information, and in control of our privacy.
 
-Fully open source, the project aims to be compatible with European Digital Identity. Currently incubated at ESSEC Ventures, ZKorum will release its MVP in December 2023 to the entire ESSEC community including 5000 students. In the long run, ZKorum aspires to collaborate with governments to become a trustless gateway to eDemocracy.
+Our core technologies:
+- Zero Knowledge Proof cryptography (zk) to ensure user privacy
+- Large Language Model (LLM) to facilitate moderation and constructive dialogues
+- Trust-minimized infrastructure to provide auditable moderation
+
+Our core products:
+- 𝗔𝗳𝘁𝗲𝗿𝘄𝗼𝗿𝗸: an anonymous professional forum that allows users to share honest career insights. 𝘐𝘵'𝘴 𝘵𝘩𝘦 𝘯𝘦𝘹𝘵 𝘨𝘦𝘯 𝘎𝘭𝘢𝘴𝘴𝘥𝘰𝘰𝘳. Users are verified by work or school email address.
+
+- 𝗔𝗴𝗼𝗿𝗮: an eDemocracy platform where users participate in anonymous discussions and polls within their country or city. Users are verified by ZK Proof of Passport, or Verifiable Credentials.
 
 ZKorum is currently at the development stage, and is actively [built in public](https://github.com/zkorum/zkorum). The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
 
