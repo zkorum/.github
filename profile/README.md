@@ -9,7 +9,7 @@ Disinformation, hate speech, and bots, have transformed social media into a toxi
 **We believe that social media should be a safe and open space where all of us are free to express ourselves, civil and respectful with others, confident in the source of information, and in control of our privacy.**
 
 Our core technologies:
-- Zero Knowledge Proof cryptography (zk) to ensure user privacy
+- Zero Knowledge Proof cryptography (zk) to ensure user privacy and data trustworthiness
 - Large Language Model (LLM) to facilitate moderation and constructive dialogues
 - Trust-minimized infrastructure to provide auditable moderation
 
