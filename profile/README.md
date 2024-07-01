@@ -12,9 +12,10 @@ Our core technologies:
 - Trust-minimized infrastructure to provide auditable moderation
 
 Our core products:
-- 𝗔𝗳𝘁𝗲𝗿𝘄𝗼𝗿𝗸: an anonymous professional forum that allows users to share honest career insights. 𝘐𝘵'𝘴 𝘵𝘩𝘦 𝘯𝘦𝘹𝘵 𝘨𝘦𝘯 𝘎𝘭𝘢𝘴𝘴𝘥𝘰𝘰𝘳. Users are verified by work or school email address.
 
 - 𝗔𝗴𝗼𝗿𝗮: an eDemocracy platform where users participate in anonymous discussions and polls within their country or city. Users are verified by ZK Proof of Passport, or Verifiable Credentials.
+
+- 𝗔𝗳𝘁𝗲𝗿𝘄𝗼𝗿𝗸: an anonymous professional forum that allows users to share honest career insights. 𝘐𝘵'𝘴 𝘵𝘩𝘦 𝘯𝘦𝘹𝘵 𝘨𝘦𝘯 𝘎𝘭𝘢𝘴𝘴𝘥𝘰𝘰𝘳. Users are verified by work or school email address.
 
 ZKorum is currently at the development stage, and is actively [built in public](https://github.com/zkorum/zkorum). The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
 
