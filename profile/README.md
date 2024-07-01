@@ -1,6 +1,6 @@
 # ZKorum - Democratize Democracy
 
-In liberal democracies worldwide, we are witnessing an alarming trend of polarization. The public space for open dialogues is diminishing, both online and offline.
+In liberal democracies worldwide, the public space for open dialogues is diminishing, both online and offline.
 
 Disinformation, hate speech, and bots, have transformed social media into a toxic place, where differing opinions are met with hostility rather than dialogues. [Pew Research Center](https://www.pewresearch.org/short-reads/2021/05/04/70-of-u-s-social-media-users-never-or-rarely-post-or-share-about-political-social-issues/) reveals that while social media plays a crucial role in shaping public opinions, 70% of users avoid posting about politics due to the fear of backlash. Vulnerable populations, including women and minorities, are significantly more likely to be harassed and pressured to self-censor. Their voices are routinely missing from the civic sphere.
 
