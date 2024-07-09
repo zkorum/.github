@@ -1,6 +1,6 @@
 # ZKorum - Democratize Democracy
 
-**ZKorum (ZK + Forum)** is a startup dedicated to developing open-source solutions and products to **rehumanize** and **depolarize** the online social landscape.
+**ZKorum (ZK + Forum)** is dedicated to developing open-source solutions and products to **rehumanize** and **depolarize** the online social landscape.
 
 At ZKorum, We believe that social media should be a safe and open space where we are in control of our **identities** and **data**, **free** to express our opinions, and encouraged to **think critically and constructively**.
 
