@@ -7,7 +7,7 @@ At ZKorum, we are building a safe and open digital space where we are in control
 Our building blocks:
 - **Zero Knowledge Proof cryptography (ZK)** to ensure user privacy and data trustworthiness
 - **Trust-minimized infrastructure** to provide auditable moderation (Funded by the European Union under the [NGI Trustchain project](https://trustchain.ngi.eu/))
-- **Bridging based ranking** algorithm to identify and promote voices that bridge divides (as opposed to engagement based algorithms nown to fuel polariztions)
+- **Bridging based ranking** algorithm to identify and promote voices that bridge divides (as opposed to engagement based algorithms known to fuel polarizations)
 
 Our core product:
 
