@@ -11,7 +11,7 @@ Our building blocks:
 
 Our core product:
 
-- 𝗔𝗴𝗼𝗿𝗮: a Wikisurvey platform where users participate in anonymous discussions and polls within their country or city. Users are verified by ZK Proof of Passport, or Verifiable Credentials.
+- **Agora**: a Wikisurvey platform where users participate in anonymous discussions and polls within their country or city. Users are verified by ZK Proof of Passport, or Verifiable Credentials.
 
 ZKorum is currently at the development stage, and is actively [built in public](https://github.com/zkorum/zkorum). The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
 
