@@ -6,8 +6,7 @@ We are building safe and open digital spaces where we are in control of our iden
 
 Our core product:
 
-- [Agora Citizen Network](https://agoracitizen.network/): a social network designed for societal debates.
-- See [Agora]([https://github.com/zkorum/agora])
+- [Agora Citizen Network]((https://github.com/zkorum/agora)/): a social network designed for societal debates.
 
 Our technologies:
 - **Zero Knowledge Proof cryptography (ZK)** to ensure user privacy and data trustworthiness
