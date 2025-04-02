@@ -4,18 +4,14 @@
 
 At ZKorum, we are building a safe and open digital space where we are in control of our identities and data, free to express our opinions, and encouraged to think critically and constructively.
 
-Our building blocks:
+Our technologies:
 - **Zero Knowledge Proof cryptography (ZK)** to ensure user privacy and data trustworthiness
 - **Trust-minimized infrastructure** to provide auditable moderation (Funded by the European Union under the [NGI Trustchain project](https://trustchain.ngi.eu/))
 - **Bridging based ranking** algorithm to identify and promote voices that bridge divides (as opposed to engagement based algorithms known to fuel polarizations)
 
 Our core product:
 
-- 𝗔𝗴𝗼𝗿𝗮: a Wikisurvey platform where users participate in anonymous discussions and polls within their country or city. Users are verified by ZK Proof of Passport, or Verifiable Credentials.
-
-ZKorum is currently at the development stage, and is actively [built in public](https://github.com/zkorum/zkorum). The [technical feasibility](https://github.com/zkorum/poc/tree/main/vc-flow#how-does-it-work) and [research & development](https://github.com/docknetwork/crypto-wasm-ts/pull/19) have been validated.
-
-The [Roadmap](https://github.com/zkorum/.github/blob/main/ROADMAP.md) as well as this document are continuously updated.
+- [Agora Citizen Network](https://agoracitizen.network/): a social network designed for societal debates. Users are verified by ZK Proof of Passport, or Verifiable Credentials.
 
 ## Detailed solution
 
