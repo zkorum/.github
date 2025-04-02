@@ -11,7 +11,7 @@ Our technologies:
 
 Our core product:
 
-- [Agora Citizen Network](https://agoracitizen.network/): a social network designed for societal debates. Users are verified by ZK Proof of Passport, or Verifiable Credentials.
+- [Agora Citizen Network](https://agoracitizen.network/): a social network designed for societal debates. 
 
 ## Detailed solution
 
